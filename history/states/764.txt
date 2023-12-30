@@ -5,8 +5,8 @@ state={
 	impassable = yes
 
 	history={
-		owner = W97
-		add_core_of = W97
+		owner = V46
+		add_core_of = V46
 	}
 
 	provinces={

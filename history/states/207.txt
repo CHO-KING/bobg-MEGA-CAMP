@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = V54
+		owner = ENG
 		victory_points = {
 			4268 15 
 		}

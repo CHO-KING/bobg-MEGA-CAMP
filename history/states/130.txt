@@ -4,7 +4,7 @@ state={
 	name="STATE_130"
 
 	history={
-		owner = VIN
+		owner = X90
 		victory_points = {
 			12297 15 
 		}

@@ -17,7 +17,7 @@ state={
 		}
 		add_core_of = SIK
 		add_claim_by = W66
-		add_claim_by = X74
+		add_claim_by = V13
 	}
 
 	provinces={

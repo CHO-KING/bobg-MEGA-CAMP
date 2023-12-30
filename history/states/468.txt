@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = NZL
+		owner = V46
 		victory_points = {
 			2211 10 
 		}
@@ -23,7 +23,7 @@ state={
 		}
 		add_core_of = W36
 		add_core_of = X07
-		add_claim_by = NZL
+		add_claim_by = V46
 	}
 
 	provinces={

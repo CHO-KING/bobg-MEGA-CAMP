@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = POL
+		owner = CZE
 		victory_points = {
 			11542 10 
 		}
@@ -20,7 +20,7 @@ state={
 		}
 		add_core_of = W87
 		add_core_of = X47
-		add_claim_by = POL
+		add_claim_by = CZE
 	}
 
 	provinces={

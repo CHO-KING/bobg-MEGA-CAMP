@@ -18,7 +18,7 @@ state={
 		add_core_of = V13
 		add_core_of = V38
 		add_core_of = W01
-		add_core_of = X74
+		add_core_of = V13
 	}
 
 	provinces={
