@@ -1,0 +1,33 @@
+
+state={
+	id=143
+	name="STATE_143"
+
+	history={
+		owner = EGY
+		victory_points = {
+			1151 15 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 0
+			12002 = {
+				naval_base = 1
+			}
+			air_base = 5
+
+		}
+		add_core_of = EGY
+		add_claim_by = SUD
+	}
+
+	provinces={
+		1028 1151 1206 7073 10097 12002 12071 12771 12889 
+	}
+	manpower=396536
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

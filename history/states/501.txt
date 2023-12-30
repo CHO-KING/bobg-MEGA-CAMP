@@ -1,0 +1,34 @@
+
+state={
+	id=501
+	name="STATE_501"
+
+	history={
+		owner = W23
+		victory_points = {
+			10382 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 6
+			arms_factory = 3
+			dockyard = 2
+			1460 = {
+				naval_base = 1
+			}
+			air_base = 8
+
+		}
+		add_core_of = MAL
+		add_core_of = W23
+	}
+
+	provinces={
+		1460 7368 10354 10382 
+	}
+	manpower=201128
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

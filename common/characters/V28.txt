@@ -1,0 +1,16 @@
+characters={
+	V28_king_abd_al_qadir={
+		name=V28_king_abd_al_qadir
+		portraits={
+			civilian={
+				large="GFX_MOR_El_Glaui"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

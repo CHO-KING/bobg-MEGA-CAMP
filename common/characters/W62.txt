@@ -1,0 +1,36 @@
+characters={
+	W62_salim_ibn_abu_bakr={
+		name=W62_salim_ibn_abu_bakr
+		portraits={
+			army={
+				large="GFX_Arabia_Generic_new_1"
+			}
+			army={
+				small="GFX_Arabia_Generic_new_1"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	W62_abd_al_qadir_ibn_halil={
+		name=W62_abd_al_qadir_ibn_halil
+		portraits={
+			civilian={
+				large="GFX_Johannes_Bell"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

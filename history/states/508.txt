@@ -1,0 +1,35 @@
+
+state={
+	id=508
+	name="STATE_508"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = POL
+		victory_points = {
+			3414 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = HUN
+		add_core_of = SLO
+		add_core_of = X47
+		add_claim_by = POL
+	}
+
+	provinces={
+		421 445 3414 3553 3583 6485 6562 6590 9412 9551 9567 
+	}
+	manpower=2437316
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=356
+	name="STATE_356"
+
+	history={
+		owner = ITA
+		victory_points = {
+			10440 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			10440 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		10440 
+	}
+	manpower=55028
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

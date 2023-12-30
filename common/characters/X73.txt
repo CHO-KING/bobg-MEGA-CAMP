@@ -1,0 +1,76 @@
+characters={
+	X73_al_mukammal_muadzam={
+		name=X73_al_mukammal_muadzam
+		portraits={
+			army={
+				large="GFX_Philippines_Macario_Peralta_Jr"
+			}
+			army={
+				small="GFX_Philippines_Macario_Peralta_Jr"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X73_riayat_muadzam={
+		name=X73_riayat_muadzam
+		portraits={
+			army={
+				large="GFX_Portrait_Asia_Generic_land_1"
+			}
+			army={
+				small="GFX_Portrait_Asia_Generic_land_1"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X73_al_mukammal_raja_inu={
+		name=X73_al_mukammal_raja_inu
+		portraits={
+			navy={
+				large="GFX_portrait_asia_generic_navy_4"
+			}
+			navy={
+				small="GFX_portrait_asia_generic_navy_4"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	X73_king_shahabuddin={
+		name=X73_king_shahabuddin
+		portraits={
+			civilian={
+				large="GFX_Indonesia_Hamengkubuwono_IX"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

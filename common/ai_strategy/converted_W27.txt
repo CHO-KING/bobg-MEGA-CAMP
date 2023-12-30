@@ -1,0 +1,153 @@
+﻿converted_war_strategies_W27 = {
+	enable = {
+		tag = W27
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "MAL"
+		value = 53
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X13"
+		value = 49
+	}
+}
+
+converted_diplo_strategies_W27 = {
+	enable = {
+		tag = W27
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "X13"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "MAL"
+		value = 211
+	}
+	ai_strategy = {
+		type = contain
+		id = "X72"
+		value = 95
+	}
+	ai_strategy = {
+		type = contain
+		id = "X73"
+		value = 95
+	}
+	ai_strategy = {
+		type = contain
+		id = "W23"
+		value = 95
+	}
+	ai_strategy = {
+		type = contain
+		id = "W35"
+		value = 40
+	}
+	ai_strategy = {
+		type = contain
+		id = "X85"
+		value = 35
+	}
+	ai_strategy = {
+		type = contain
+		id = "W02"
+		value = 15
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X13"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X15"
+		value = 47
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 20
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SCA"
+		value = 13
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 10
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "RAJ"
+		value = 7
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "W38"
+		value = 5
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "JAP"
+		value = 3
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "W01"
+		value = 1
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X72"
+		value = 198
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X90"
+		value = 29
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X14"
+		value = 27
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X73"
+		value = 21
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X13"
+		value = 275
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X80"
+		value = 90
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "W02"
+		value = 90
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X16"
+		value = 50
+	}
+}

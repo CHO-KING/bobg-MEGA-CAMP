@@ -1,0 +1,36 @@
+
+state={
+	id=751
+	name="STATE_751"
+	resources={
+		chromium=5.000
+	}
+
+	history={
+		owner = W60
+		victory_points = {
+			4247 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 6
+			arms_factory = 3
+			dockyard = 2
+			4247 = {
+				naval_base = 2
+			}
+			air_base = 8
+
+		}
+		add_core_of = W60
+	}
+
+	provinces={
+		1237 4247 12120 
+	}
+	manpower=34208
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

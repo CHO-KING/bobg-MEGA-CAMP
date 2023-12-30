@@ -1,0 +1,16 @@
+characters={
+	V60_andrea_govone={
+		name=V60_andrea_govone
+		portraits={
+			civilian={
+				large="GFX_SRI_Giacomo_Matteotti"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

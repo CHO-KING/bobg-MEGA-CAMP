@@ -1,0 +1,32 @@
+
+state={
+	id=534
+	name="STATE_534"
+
+	history={
+		owner = QUE
+		victory_points = {
+			4342 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			4360 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_core_of = QUE
+	}
+
+	provinces={
+		634 4342 4360 4362 
+	}
+	manpower=153856
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

@@ -1,0 +1,16 @@
+characters={
+	W71_king_temir={
+		name=W71_king_temir
+		portraits={
+			civilian={
+				large="GFX_KUR_Mahmud_Barzanji"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=383
+	name="STATE_383"
+
+	history={
+		owner = JAP
+		victory_points = {
+			11932 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			11932 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_core_of = JAP
+	}
+
+	provinces={
+		1123 7115 10124 11932 
+	}
+	manpower=782516
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

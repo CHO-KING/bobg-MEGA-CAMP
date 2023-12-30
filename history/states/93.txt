@@ -1,0 +1,32 @@
+
+state={
+	id=93
+	name="STATE_93"
+
+	history={
+		owner = X24
+		victory_points = {
+			3973 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			3973 = {
+				naval_base = 2
+			}
+			air_base = 1
+
+		}
+		add_core_of = X24
+	}
+
+	provinces={
+		863 3914 3973 6930 9805 9916 10203 11786 
+	}
+	manpower=2322800
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

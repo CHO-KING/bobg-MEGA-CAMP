@@ -1,0 +1,83 @@
+﻿converted_war_strategies_IRE = {
+	enable = {
+		tag = IRE
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "ENG"
+		value = 3554
+	}
+}
+
+converted_diplo_strategies_IRE = {
+	enable = {
+		tag = IRE
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "BRA"
+		value = 191
+	}
+	ai_strategy = {
+		type = contain
+		id = "ENG"
+		value = 161
+	}
+	ai_strategy = {
+		type = contain
+		id = "FRA"
+		value = 21
+	}
+	ai_strategy = {
+		type = contain
+		id = "SPB"
+		value = 20
+	}
+	ai_strategy = {
+		type = contain
+		id = "SCA"
+		value = 15
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 400
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SCA"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ITA"
+		value = 196
+	}
+	ai_strategy = {
+		type = alliance
+		id = "HOL"
+		value = 31
+	}
+	ai_strategy = {
+		type = alliance
+		id = "POL"
+		value = 6
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "BOS"
+		value = 42
+	}
+}

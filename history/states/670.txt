@@ -1,0 +1,32 @@
+
+state={
+	id=670
+	name="STATE_670"
+
+	history={
+		owner = W38
+		victory_points = {
+			9814 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			9814 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		6881 9814 9855 10483 11859 11876 
+	}
+	manpower=600676
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

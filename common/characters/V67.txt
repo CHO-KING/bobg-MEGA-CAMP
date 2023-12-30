@@ -1,0 +1,16 @@
+characters={
+	V67_jacob_kiskiyew={
+		name=V67_jacob_kiskiyew
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=dictatorship_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

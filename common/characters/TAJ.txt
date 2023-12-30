@@ -1,0 +1,16 @@
+characters={
+	TAJ_mozzafer_ed_din_khan={
+		name=TAJ_mozzafer_ed_din_khan
+		portraits={
+			civilian={
+				large="GFX_IRQ_maktoum"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

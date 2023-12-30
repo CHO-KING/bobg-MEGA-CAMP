@@ -1,0 +1,153 @@
+﻿converted_war_strategies_X79 = {
+	enable = {
+		tag = X79
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "MAL"
+		value = 163
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X16"
+		value = 162
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ENG"
+		value = 96
+	}
+}
+
+converted_diplo_strategies_X79 = {
+	enable = {
+		tag = X79
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "MAL"
+		value = 378
+	}
+	ai_strategy = {
+		type = contain
+		id = "X16"
+		value = 314
+	}
+	ai_strategy = {
+		type = contain
+		id = "ENG"
+		value = 286
+	}
+	ai_strategy = {
+		type = contain
+		id = "BRU"
+		value = 152
+	}
+	ai_strategy = {
+		type = contain
+		id = "X20"
+		value = 125
+	}
+	ai_strategy = {
+		type = contain
+		id = "W42"
+		value = 125
+	}
+	ai_strategy = {
+		type = contain
+		id = "X22"
+		value = 124
+	}
+	ai_strategy = {
+		type = contain
+		id = "W35"
+		value = 75
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X16"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 128
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "BRU"
+		value = 36
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "W35"
+		value = 20
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "RAJ"
+		value = 7
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "W38"
+		value = 2
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 2
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "JAP"
+		value = 1
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "W01"
+		value = 0
+	}
+	ai_strategy = {
+		type = alliance
+		id = "W46"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X98"
+		value = 117
+	}
+	ai_strategy = {
+		type = alliance
+		id = "W35"
+		value = 8
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X16"
+		value = 180
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "W23"
+		value = 113
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X73"
+		value = 90
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X20"
+		value = 72
+	}
+}

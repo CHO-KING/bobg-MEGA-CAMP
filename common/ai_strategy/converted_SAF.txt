@@ -1,0 +1,53 @@
+﻿converted_war_strategies_SAF = {
+	enable = {
+		tag = SAF
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "ENG"
+		value = 2920
+	}
+}
+
+converted_diplo_strategies_SAF = {
+	enable = {
+		tag = SAF
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "BRA"
+		value = 303
+	}
+	ai_strategy = {
+		type = contain
+		id = "ENG"
+		value = 138
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 400
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ITA"
+		value = 128
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SCA"
+		value = 75
+	}
+}

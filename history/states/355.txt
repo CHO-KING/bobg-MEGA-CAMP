@@ -1,0 +1,32 @@
+
+state={
+	id=355
+	name="STATE_355"
+
+	history={
+		owner = ITA
+		victory_points = {
+			13071 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			13071 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_core_of = MOR
+	}
+
+	provinces={
+		13071 
+	}
+	manpower=325404
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

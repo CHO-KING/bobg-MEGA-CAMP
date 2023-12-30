@@ -1,0 +1,68 @@
+﻿converted_war_strategies_CYP = {
+	enable = {
+		tag = CYP
+		always = no
+	}
+	
+}
+
+converted_diplo_strategies_CYP = {
+	enable = {
+		tag = CYP
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "X24"
+		value = 69
+	}
+	ai_strategy = {
+		type = contain
+		id = "X42"
+		value = 69
+	}
+	ai_strategy = {
+		type = contain
+		id = "PER"
+		value = 13
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 91
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X24"
+		value = 8
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ITA"
+		value = 3
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "W38"
+		value = 3
+	}
+	ai_strategy = {
+		type = alliance
+		id = "PER"
+		value = 38
+	}
+	ai_strategy = {
+		type = alliance
+		id = "POL"
+		value = 2
+	}
+}

@@ -1,0 +1,43 @@
+﻿converted_war_strategies_NZL = {
+	enable = {
+		tag = NZL
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "W97"
+		value = 177
+	}
+}
+
+converted_diplo_strategies_NZL = {
+	enable = {
+		tag = NZL
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "W97"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 6
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X16"
+		value = 62
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X98"
+		value = 59
+	}
+}

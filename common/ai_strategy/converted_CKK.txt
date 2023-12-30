@@ -1,0 +1,83 @@
+﻿converted_war_strategies_CKK = {
+	enable = {
+		tag = CKK
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "USA"
+		value = 338
+	}
+	ai_strategy = {
+		type = conquer
+		id = "JAP"
+		value = 30
+	}
+}
+
+converted_diplo_strategies_CKK = {
+	enable = {
+		tag = CKK
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "USA"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "JAP"
+		value = 89
+	}
+	ai_strategy = {
+		type = contain
+		id = "X31"
+		value = 28
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 284
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "JAP"
+		value = 127
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X31"
+		value = 48
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 4
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X31"
+		value = 117
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "W58"
+		value = 65
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X73"
+		value = 43
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X79"
+		value = 43
+	}
+}

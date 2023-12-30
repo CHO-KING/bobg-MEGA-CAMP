@@ -1,0 +1,29 @@
+
+state={
+	id=81
+	name="STATE_81"
+
+	history={
+		owner = BRA
+		victory_points = {
+			2152 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = BRA
+	}
+
+	provinces={
+		2152 2173 2194 11023 12901 
+	}
+	manpower=2952420
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

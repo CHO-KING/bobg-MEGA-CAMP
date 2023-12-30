@@ -1,0 +1,36 @@
+
+state={
+	id=196
+	name="STATE_196"
+	resources={
+		aluminium=1.000
+		steel=3.000
+	}
+
+	history={
+		owner = V47
+		victory_points = {
+			4875 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			9740 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_core_of = V47
+	}
+
+	provinces={
+		763 1769 1782 3736 4784 4875 7794 9740 10621 11571 12701 13094 
+	}
+	manpower=24512
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

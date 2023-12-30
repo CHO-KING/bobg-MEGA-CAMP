@@ -1,0 +1,31 @@
+
+state={
+	id=770
+	name="STATE_770"
+
+	history={
+		owner = V00
+		victory_points = {
+			1513 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 1
+			1513 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		1513 
+	}
+	manpower=6285
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

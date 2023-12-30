@@ -1,0 +1,98 @@
+﻿converted_war_strategies_W62 = {
+	enable = {
+		tag = W62
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "EGY"
+		value = 1356
+	}
+	ai_strategy = {
+		type = conquer
+		id = "W74"
+		value = 558
+	}
+	ai_strategy = {
+		type = conquer
+		id = "PER"
+		value = 453
+	}
+	ai_strategy = {
+		type = conquer
+		id = "OMA"
+		value = 390
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ITA"
+		value = 78
+	}
+}
+
+converted_diplo_strategies_W62 = {
+	enable = {
+		tag = W62
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "W74"
+		value = 73
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "W74"
+		value = 186
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "PER"
+		value = 156
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "OMA"
+		value = 135
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ITA"
+		value = 26
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "RAJ"
+		value = 3
+	}
+	ai_strategy = {
+		type = alliance
+		id = "RAJ"
+		value = 20
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X22"
+		value = 125
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "W58"
+		value = 125
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "BRU"
+		value = 65
+	}
+}

@@ -1,0 +1,36 @@
+
+state={
+	id=513
+	name="STATE_513"
+	resources={
+		oil=13.000
+	}
+
+	history={
+		owner = POL
+		victory_points = {
+			6667 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 0
+			air_base = 10
+
+		}
+		add_core_of = ROM
+		add_core_of = V22
+		add_core_of = W79
+		add_core_of = W91
+		add_claim_by = POL
+	}
+
+	provinces={
+		637 660 674 818 3630 3636 3639 3645 3663 6652 6658 6667 6677 6695 9617 9651 11588 11603 11605 11619 11636 11657 
+	}
+	manpower=3616620
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=331
+	name="STATE_331"
+
+	history={
+		owner = ITA
+		victory_points = {
+			11921 10 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			arms_factory = 0
+			11969 = {
+				naval_base = 8
+			}
+			air_base = 10
+
+		}
+		add_core_of = LBA
+		add_core_of = TUN
+		add_core_of = V31
+		add_core_of = W83
+	}
+
+	provinces={
+		1037 1046 1105 3987 4061 4129 4163 4992 7005 7077 7162 7180 9983 9994 10026 10082 10091 11921 11935 11957 11969 12000 
+	}
+	manpower=2938048
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

@@ -1,0 +1,64 @@
+units = {
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 5021
+		task_force = {
+			name = "3rd Fleet"
+			location = 5021
+			ship = { name = "1st Saltillo Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = W38 } } }
+			ship = { name = "1st Guaymas Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = W38 } } }
+			ship = { name = "1st Minatitlán Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = W38 } } }
+			ship = { name = "1st Culiacán Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = W38 } } }
+			ship = { name = "1st Tepic Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = W38 } } }
+			ship = { name = "1st Villahermosa Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = W38 } } }
+			ship = { name = "1st Acapulco Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = W38 } } }
+			ship = { name = "1st Bacalar Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = W38 } } }
+			ship = { name = "1st Belize Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = W38 } } }
+			ship = { name = "1st San Miguel Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = W38 } } }
+			ship = { name = "1st La Ceiba Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = W38 } } }
+			ship = { name = "1st Bluefields Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = W38 } } }
+			ship = { name = "1st Liberia Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = W38 } } }
+			ship = { name = "1st David Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = W38 } } }
+			ship = { name = "1st Cartagena de Indias Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = W38 } } }
+			ship = { name = "1st Buenaventura Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = W38 } } }
+			ship = { name = "1st Coro Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = W38 } } }
+			ship = { name = "1st Esmeraldas Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = W38 } } }
+			ship = { name = "1st Piura Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = W38 } } }
+			ship = { name = "1st Saltillo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W38 } } }
+			ship = { name = "Loma Alta" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W38 } } }
+			ship = { name = "El Lobo" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W38 } } }
+			ship = { name = "1st Villahermosa Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W38 } } }
+			ship = { name = "Candela" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W38 } } }
+			ship = { name = "1st Acapulco Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W38 } } }
+			ship = { name = "Villadama" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W38 } } }
+			ship = { name = "Santo Domingo" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W38 } } }
+			ship = { name = "Tuxpan" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W38 } } }
+			ship = { name = "1st Bacalar Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W38 } } }
+			ship = { name = "1st Bluefields Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W38 } } }
+			ship = { name = "1st Belize Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W38 } } }
+			ship = { name = "1st San Miguel Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W38 } } }
+			ship = { name = "1st La Ceiba Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W38 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "W38"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "W38"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

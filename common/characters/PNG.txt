@@ -1,0 +1,36 @@
+characters={
+	PNG_epenisa_cokanauto={
+		name=PNG_epenisa_cokanauto
+		portraits={
+			army={
+				large="GFX_Portrait_The_Raj_Army_Generic"
+			}
+			army={
+				small="GFX_Portrait_The_Raj_Army_Generic"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	PNG_ti_abel_banuve={
+		name=PNG_ti_abel_banuve
+		portraits={
+			civilian={
+				large="GFX_SOM_Ali_Shire"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

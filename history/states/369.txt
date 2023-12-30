@@ -1,0 +1,29 @@
+
+state={
+	id=369
+	name="STATE_369"
+
+	history={
+		owner = V58
+		victory_points = {
+			2080 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = V58
+	}
+
+	provinces={
+		2080 5054 
+	}
+	manpower=769764
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

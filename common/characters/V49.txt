@@ -1,0 +1,16 @@
+characters={
+	V49_arthur_madden={
+		name=V49_arthur_madden
+		portraits={
+			civilian={
+				large="GFX_USA_Happy_Chandler"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

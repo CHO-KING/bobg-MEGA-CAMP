@@ -1,0 +1,34 @@
+
+state={
+	id=773
+	name="STATE_773"
+
+	history={
+		owner = V09
+		victory_points = {
+			9793 30 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 7
+			arms_factory = 2
+			dockyard = 2
+			9793 = {
+				naval_base = 4
+			}
+			air_base = 8
+
+		}
+		add_core_of = SPB
+		add_core_of = V09
+	}
+
+	provinces={
+		7114 9793 9845 
+	}
+	manpower=354892
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

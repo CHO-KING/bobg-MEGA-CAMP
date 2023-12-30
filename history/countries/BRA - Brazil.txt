@@ -1,0 +1,451 @@
+﻿capital = 53
+set_research_slots = 3
+add_named_threat = { threat = 1.8677 name = infamy }
+
+oob = "BRA_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "BRA_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "BRA_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+	fuel_refining = 1
+	fuel_silos = 1
+	gw_artillery = 1
+	infantry_weapons = 1
+	tech_support = 1
+}
+
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+	set_technology = {
+		aa_lmg = 1
+		early_bombs = 1
+		engines_1 = 1
+		iw_large_airframe = 1
+		iw_medium_airframe = 1
+		iw_small_airframe = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_battery = 1
+		basic_naval_mines = 1
+		basic_torpedo = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_light = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "By Blood Alone" } }
+	set_technology = {
+		early_bomber = 1
+		early_fighter = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_battleship = 1
+		early_destroyer = 1
+		early_heavy_cruiser = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+
+# Research Bonuses
+
+set_country_flag = conv_brazil
+set_convoys = 7
+
+set_politics = {
+    ruling_party = democratic
+    last_election = "1914.2.5"
+    election_frequency = 48
+    elections_allowed = yes
+}
+
+set_popularities = {
+	absolutist = 5
+	communism = 3
+	democratic = 84
+	fascism = 6
+	neutrality = 2
+}
+
+give_guarantee = ENG
+if = {
+	limit = { NOT = { has_non_aggression_pact_with = ENG } }
+	diplomatic_relation = { country = ENG relation = non_aggression_pact }
+}
+
+give_guarantee = USA
+if = {
+	limit = { NOT = { has_non_aggression_pact_with = USA } }
+	diplomatic_relation = { country = USA relation = non_aggression_pact }
+}
+
+give_guarantee = W38
+if = {
+	limit = { NOT = { has_non_aggression_pact_with = W38 } }
+	diplomatic_relation = { country = W38 relation = non_aggression_pact }
+}
+
+add_opinion_modifier = { target = BAY modifier = negative_30 }
+add_opinion_modifier = { target = BOS modifier = negative_10 }
+add_opinion_modifier = { target = CAM modifier = negative_30 }
+add_opinion_modifier = { target = CKK modifier = negative_30 }
+add_opinion_modifier = { target = CUB modifier = positive_109 }
+add_opinion_modifier = { target = CYP modifier = negative_10 }
+add_opinion_modifier = { target = CZE modifier = negative_10 }
+add_opinion_modifier = { target = EGY modifier = negative_90 }
+add_opinion_modifier = { target = ENG modifier = positive_200 }
+add_opinion_modifier = { target = FIJ modifier = negative_30 }
+add_opinion_modifier = { target = FRA modifier = negative_200 }
+add_opinion_modifier = { target = GAB modifier = negative_5 }
+add_opinion_modifier = { target = HOL modifier = positive_2 }
+add_opinion_modifier = { target = IRE modifier = positive_15 }
+add_opinion_modifier = { target = ITA modifier = negative_162 }
+add_opinion_modifier = { target = JAP modifier = negative_30 }
+add_opinion_modifier = { target = MAL modifier = positive_105 }
+add_opinion_modifier = { target = NZL modifier = negative_10 }
+add_opinion_modifier = { target = OMA modifier = positive_45 }
+add_opinion_modifier = { target = PNG modifier = negative_10 }
+add_opinion_modifier = { target = POL modifier = negative_30 }
+add_opinion_modifier = { target = QUE modifier = positive_110 }
+add_opinion_modifier = { target = RAJ modifier = negative_15 }
+add_opinion_modifier = { target = SAF modifier = positive_50 }
+add_opinion_modifier = { target = SCA modifier = positive_5 }
+add_opinion_modifier = { target = SEN modifier = positive_105 }
+add_opinion_modifier = { target = SER modifier = positive_35 }
+add_opinion_modifier = { target = SOV modifier = negative_95 }
+add_opinion_modifier = { target = SPB modifier = negative_193 }
+set_truce = { target = SPB days = 479 }
+add_opinion_modifier = { target = TOG modifier = positive_45 }
+add_opinion_modifier = { target = USA modifier = positive_180 }
+give_military_access = USA
+add_opinion_modifier = { target = V00 modifier = negative_178 }
+add_opinion_modifier = { target = V09 modifier = positive_25 }
+add_opinion_modifier = { target = V13 modifier = negative_30 }
+add_opinion_modifier = { target = V20 modifier = negative_30 }
+add_opinion_modifier = { target = VIN modifier = negative_30 }
+add_opinion_modifier = { target = W00 modifier = negative_30 }
+add_opinion_modifier = { target = W01 modifier = negative_194 }
+set_truce = { target = W01 days = 1482 }
+add_opinion_modifier = { target = W02 modifier = negative_30 }
+add_opinion_modifier = { target = W05 modifier = negative_30 }
+add_opinion_modifier = { target = W23 modifier = negative_30 }
+add_opinion_modifier = { target = W31 modifier = negative_10 }
+add_opinion_modifier = { target = W38 modifier = positive_123 }
+give_military_access = W38
+add_opinion_modifier = { target = W46 modifier = negative_30 }
+add_opinion_modifier = { target = W48 modifier = negative_30 }
+add_opinion_modifier = { target = W53 modifier = negative_30 }
+add_opinion_modifier = { target = W58 modifier = negative_30 }
+add_opinion_modifier = { target = W62 modifier = negative_5 }
+add_opinion_modifier = { target = W73 modifier = negative_30 }
+add_opinion_modifier = { target = W97 modifier = negative_10 }
+add_opinion_modifier = { target = X06 modifier = negative_10 }
+add_opinion_modifier = { target = X14 modifier = negative_30 }
+add_opinion_modifier = { target = X15 modifier = negative_30 }
+add_opinion_modifier = { target = X16 modifier = negative_30 }
+add_opinion_modifier = { target = X20 modifier = negative_30 }
+add_opinion_modifier = { target = X22 modifier = negative_30 }
+add_opinion_modifier = { target = X24 modifier = positive_10 }
+add_opinion_modifier = { target = X31 modifier = negative_30 }
+add_opinion_modifier = { target = X42 modifier = negative_10 }
+add_opinion_modifier = { target = X48 modifier = positive_20 }
+add_opinion_modifier = { target = X49 modifier = negative_10 }
+add_opinion_modifier = { target = X50 modifier = negative_10 }
+add_opinion_modifier = { target = X62 modifier = negative_10 }
+add_opinion_modifier = { target = X67 modifier = negative_30 }
+add_opinion_modifier = { target = X69 modifier = negative_30 }
+add_opinion_modifier = { target = X74 modifier = negative_30 }
+add_opinion_modifier = { target = X79 modifier = negative_30 }
+add_opinion_modifier = { target = X80 modifier = negative_30 }
+add_opinion_modifier = { target = X85 modifier = negative_30 }
+add_opinion_modifier = { target = X90 modifier = negative_30 }
+add_opinion_modifier = { target = X93 modifier = negative_20 }
+add_opinion_modifier = { target = X98 modifier = negative_30 }
+
+
+add_ideas = {
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_ealimi
+}
+set_stability = 0.60
+set_war_support = 0.60
+
+recruit_character = BRA_nur_al_din_ibn_yusuf
+recruit_character = BRA_nur_al_din_ibn_fuad
+recruit_character = BRA_ahmad_ibn_khalid
+recruit_character = BRA_abd_al_malik_ibn_hasan
+recruit_character = BRA_hasan_ibn_abu_bakr
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Rashida bint Khalid"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BRA }
+	}
+
+	create_operative_leader = {
+		name = "Souzan bint Ja'far"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BRA }
+	}
+
+	create_operative_leader = {
+		name = "Souzan bint Hisham"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BRA }
+	}
+
+	create_operative_leader = {
+		name = "Sa'd al-Din ibn Salim"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BRA }
+	}
+
+	create_operative_leader = {
+		name = "Kamil ibn Khalid"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BRA }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = battleship_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = destroyer_1
+		upgrades = {
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+			ship_torpedo_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = heavy_cruiser_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = light_cruiser_1
+		upgrades = {
+			ship_anti_air_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = submarine_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			sub_engine_upgrade = 1
+			sub_stealth_upgrade = 1
+			sub_torpedo_upgrade = 1
+		}
+	}
+
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = ship_hull_light_1
+		name_group = BRA_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = BRA_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_medium_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = BRA_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+}
+### PLANE DESIGNS ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+	create_equipment_variant = {
+		name = "Interwar CAS"
+		type = small_plane_cas_airframe_0
+		modules = {
+			engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = lmg_defense_turret
+		}
+	}
+	create_equipment_variant = {
+		name = "Interwar Carrier CAS"
+		type = cv_small_plane_cas_airframe_0
+		modules = {
+			engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = lmg_defense_turret
+		}
+	}
+	create_equipment_variant = {
+		name = "Interwar Carrier Fighter"
+		type = cv_small_plane_airframe_0
+		modules = {
+			engine_type_slot = engine_1_1x
+			fixed_auxiliary_weapon_slot_1 = bomb_locks
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Interwar Carrier Naval Bomber"
+		type = cv_small_plane_naval_bomber_airframe_0
+		modules = {
+			engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = torpedo_mounting
+			special_type_slot_1 = lmg_defense_turret
+		}
+	}
+	create_equipment_variant = {
+		name = "Interwar Fighter"
+		type = small_plane_airframe_0
+		modules = {
+			engine_type_slot = engine_1_1x
+			fixed_auxiliary_weapon_slot_1 = bomb_locks
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Interwar Naval Bomber"
+		type = small_plane_naval_bomber_airframe_0
+		modules = {
+			engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = torpedo_mounting
+			special_type_slot_1 = lmg_defense_turret
+		}
+	}
+	create_equipment_variant = {
+		name = "Interwar Strategic Bomber"
+		type = large_plane_airframe_0
+		modules = {
+			engine_type_slot = engine_1_4x
+			fixed_main_weapon_slot = large_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+			special_type_slot_2 = lmg_defense_turret
+		}
+	}
+	create_equipment_variant = {
+		name = "Interwar Tactical Bomber"
+		type = medium_plane_airframe_0
+		modules = {
+			engine_type_slot = engine_1_2x
+			fixed_main_weapon_slot = medium_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+			special_type_slot_2 = lmg_defense_turret
+		}
+	}
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+}
+add_equipment_to_stockpile = { type = artillery_equipment amount = 1092 producer = BRA }
+add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 6 producer = BRA }
+add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 69 producer = BRA }
+

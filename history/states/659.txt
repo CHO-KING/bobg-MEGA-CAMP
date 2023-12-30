@@ -1,0 +1,32 @@
+
+state={
+	id=659
+	name="STATE_659"
+
+	history={
+		owner = W38
+		victory_points = {
+			10728 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			2075 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = W38
+	}
+
+	provinces={
+		1988 2075 10728 12738 
+	}
+	manpower=1754248
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

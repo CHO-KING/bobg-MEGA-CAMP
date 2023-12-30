@@ -1,0 +1,16 @@
+characters={
+	SOM_taban_doreh={
+		name=SOM_taban_doreh
+		portraits={
+			civilian={
+				large="GFX_SOM_Cismaan_III_Maxamuud"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

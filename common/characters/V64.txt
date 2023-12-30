@@ -1,0 +1,16 @@
+characters={
+	V64_'abdullah_al_said={
+		name=V64_'abdullah_al_said
+		portraits={
+			civilian={
+				large="GFX_Barot_YetaIII"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

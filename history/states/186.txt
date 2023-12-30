@@ -1,0 +1,35 @@
+
+state={
+	id=186
+	name="STATE_186"
+
+	history={
+		owner = V53
+		victory_points = {
+			8034 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			8034 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_core_of = V53
+		ITA = {
+			set_province_controller = 8034
+		}
+	}
+
+	provinces={
+		1992 8034 
+	}
+	manpower=3794184
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=637
+	name="STATE_637"
+
+	history={
+		owner = SCA
+		victory_points = {
+			1413 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 0
+			1386 = {
+				naval_base = 1
+			}
+			air_base = 10
+
+		}
+		add_core_of = INS
+		add_core_of = W43
+		add_core_of = X52
+		add_core_of = X96
+	}
+
+	provinces={
+		1386 1398 1413 1425 4406 4434 4621 7223 7381 7421 7642 10135 10279 10307 12249 12277 
+	}
+	manpower=7800784
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

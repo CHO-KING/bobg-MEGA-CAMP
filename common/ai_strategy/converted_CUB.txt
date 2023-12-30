@@ -1,0 +1,68 @@
+﻿converted_war_strategies_CUB = {
+	enable = {
+		tag = CUB
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "BRA"
+		value = 63
+	}
+}
+
+converted_diplo_strategies_CUB = {
+	enable = {
+		tag = CUB
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "BRA"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "USA"
+		value = 245
+	}
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 102
+	}
+	ai_strategy = {
+		type = contain
+		id = "W38"
+		value = 37
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "BRA"
+		value = 185
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "V00"
+		value = 42
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 10
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "W38"
+		value = 149
+	}
+}

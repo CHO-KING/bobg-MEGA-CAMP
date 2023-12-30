@@ -1,0 +1,29 @@
+
+state={
+	id=775
+	name="STATE_775"
+
+	history={
+		owner = V13
+		victory_points = {
+			4797 3 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 3
+			arms_factory = 2
+			air_base = 1
+
+		}
+		add_core_of = V13
+	}
+
+	provinces={
+		1707 1727 1735 1792 1803 1810 1813 1829 4737 4750 4797 4808 4815 7713 7759 7769 7802 7828 7838 7841 7902 10524 10543 10549 10562 10583 10596 10654 10661 10664 12506 12525 12540 12575 12647 
+	}
+	manpower=412776
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

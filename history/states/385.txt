@@ -1,0 +1,35 @@
+
+state={
+	id=385
+	name="STATE_385"
+
+	history={
+		owner = V61
+		victory_points = {
+			12543 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			1772 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_core_of = MAN
+		add_core_of = TAN
+		add_core_of = V61
+		add_core_of = W37
+	}
+
+	provinces={
+		1730 1739 1772 1807 1845 4731 4847 7754 7851 10590 10678 12543 12591 12660 
+	}
+	manpower=346320
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

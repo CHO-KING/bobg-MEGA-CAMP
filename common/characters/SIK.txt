@@ -1,0 +1,56 @@
+characters={
+	SIK_yaqub_beg={
+		name=SIK_yaqub_beg
+		portraits={
+			army={
+				large="GFX_portrait_TUR_mustafa_kemal_ataturk_military"
+			}
+			army={
+				small="GFX_portrait_TUR_mustafa_kemal_ataturk_military"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	SIK_muhammad_khan={
+		name=SIK_muhammad_khan
+		portraits={
+			army={
+				large="GFX_Arabia_Generic_new_1"
+			}
+			army={
+				small="GFX_Arabia_Generic_new_1"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	SIK_afaq_khan={
+		name=SIK_afaq_khan
+		portraits={
+			civilian={
+				large="GFX_Ottoman_Abdulmecid"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

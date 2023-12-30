@@ -1,0 +1,37 @@
+
+state={
+	id=468
+	name="STATE_468"
+	resources={
+		tungsten=1.000
+	}
+
+	history={
+		owner = NZL
+		victory_points = {
+			2211 10 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 0
+			2197 = {
+				naval_base = 1
+			}
+			air_base = 5
+
+		}
+		add_core_of = W36
+		add_core_of = X07
+		add_claim_by = NZL
+	}
+
+	provinces={
+		2197 2203 2211 5195 7839 8204 8212 8232 8241 10650 12966 12974 12980 12988 
+	}
+	manpower=19104
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

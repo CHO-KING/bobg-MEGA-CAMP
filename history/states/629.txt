@@ -1,0 +1,29 @@
+
+state={
+	id=629
+	name="STATE_629"
+
+	history={
+		owner = SCA
+		victory_points = {
+			375 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = SCA
+	}
+
+	provinces={
+		375 3367 11219 
+	}
+	manpower=675456
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

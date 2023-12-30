@@ -1,0 +1,36 @@
+characters={
+	KEN_fairfax_ragland={
+		name=KEN_fairfax_ragland
+		portraits={
+			army={
+				large="GFX_portrait_ENG_harold_alexander"
+			}
+			army={
+				small="GFX_portrait_ENG_harold_alexander"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	KEN_geoffrey_lyons={
+		name=KEN_geoffrey_lyons
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_Britain_George_VI.dds"
+			}
+		}
+		country_leader={
+			ideology=prussian_const
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

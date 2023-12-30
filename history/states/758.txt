@@ -1,0 +1,29 @@
+
+state={
+	id=758
+	name="STATE_758"
+
+	history={
+		owner = W74
+		victory_points = {
+			7980 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = W74
+	}
+
+	provinces={
+		7980 12714 13249 
+	}
+	manpower=382368
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

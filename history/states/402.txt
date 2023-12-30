@@ -1,0 +1,29 @@
+
+state={
+	id=402
+	name="STATE_402"
+
+	history={
+		owner = X85
+		victory_points = {
+			1488 20 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 8
+			arms_factory = 3
+			air_base = 8
+
+		}
+		add_core_of = X85
+	}
+
+	provinces={
+		1253 1488 1990 4496 7492 7531 7675 8045 10371 
+	}
+	manpower=678224
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

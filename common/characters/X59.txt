@@ -1,0 +1,16 @@
+characters={
+	X59_alexander_von_ravensberg={
+		name=X59_alexander_von_ravensberg
+		portraits={
+			civilian={
+				large="gfx/leaders/GER/Portrait_Germany_Konrad_Adenauer.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,16 @@
+characters={
+	V10_king_gzi_iii={
+		name=V10_king_gzi_iii
+		portraits={
+			civilian={
+				large="gfx/leaders/TUR/portrait_tur_abdulmejid_ii.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

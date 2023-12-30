@@ -1,0 +1,31 @@
+
+state={
+	id=421
+	name="STATE_421"
+
+	history={
+		owner = W01
+		victory_points = {
+			12882 15 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = V13
+		add_core_of = V29
+		add_core_of = W01
+	}
+
+	provinces={
+		517 531 556 1630 1647 1933 1985 2022 3742 3745 4313 4888 4939 5025 5057 5193 6638 7397 7911 8081 10724 12327 12732 12776 12797 12882 
+	}
+	manpower=13936520
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

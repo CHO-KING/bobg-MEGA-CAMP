@@ -1,0 +1,33 @@
+
+state={
+	id=86
+	name="STATE_86"
+
+	history={
+		owner = X24
+		victory_points = {
+			657 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			657 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_core_of = V27
+		add_claim_by = X24
+	}
+
+	provinces={
+		657 9614 11597 
+	}
+	manpower=702372
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

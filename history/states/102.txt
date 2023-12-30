@@ -1,0 +1,32 @@
+
+state={
+	id=102
+	name="STATE_102"
+
+	history={
+		owner = X24
+		victory_points = {
+			4112 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			4112 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+		add_core_of = X24
+	}
+
+	provinces={
+		928 3927 4112 6945 6992 7130 9921 9929 9941 10038 10041 10122 11796 11848 11898 11917 12096 
+	}
+	manpower=2173856
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

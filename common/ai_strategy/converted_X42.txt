@@ -1,0 +1,73 @@
+﻿converted_war_strategies_X42 = {
+	enable = {
+		tag = X42
+		always = no
+	}
+	
+}
+
+converted_diplo_strategies_X42 = {
+	enable = {
+		tag = X42
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "CYP"
+		value = 70
+	}
+	ai_strategy = {
+		type = contain
+		id = "X24"
+		value = 30
+	}
+	ai_strategy = {
+		type = contain
+		id = "SER"
+		value = 27
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X24"
+		value = 51
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 48
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ITA"
+		value = 3
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "W38"
+		value = 3
+	}
+	ai_strategy = {
+		type = alliance
+		id = "POL"
+		value = 11
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X16"
+		value = 100
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "CYP"
+		value = 60
+	}
+}

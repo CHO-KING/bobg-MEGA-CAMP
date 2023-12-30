@@ -1,0 +1,36 @@
+characters={
+	V09_muhammad_al_fath={
+		name=V09_muhammad_al_fath
+		portraits={
+			army={
+				large="GFX_Portrait_Arabia_Generic_land_2"
+			}
+			army={
+				small="GFX_Portrait_Arabia_Generic_land_2"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	V09_umar_ibn_ibrahim={
+		name=V09_umar_ibn_ibrahim
+		portraits={
+			civilian={
+				large="GFX_JOR_Salih_Jabr"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

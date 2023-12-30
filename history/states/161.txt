@@ -1,0 +1,35 @@
+
+state={
+	id=161
+	name="STATE_161"
+	resources={
+		rubber=3.000
+	}
+
+	history={
+		owner = V50
+		victory_points = {
+			7293 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			4301 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+		add_core_of = V50
+	}
+
+	provinces={
+		1298 4301 7293 7321 10175 10191 10219 12151 12162 12219 12234 
+	}
+	manpower=1954288
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

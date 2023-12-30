@@ -1,0 +1,35 @@
+
+state={
+	id=220
+	name="STATE_220"
+	resources={
+		rubber=1.000
+	}
+
+	history={
+		owner = V57
+		victory_points = {
+			7959 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			7959 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_core_of = V57
+	}
+
+	provinces={
+		7959 8006 
+	}
+	manpower=2269176
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

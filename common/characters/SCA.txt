@@ -1,0 +1,76 @@
+characters={
+	SCA_sven_zytphen_adeler={
+		name=SCA_sven_zytphen_adeler
+		portraits={
+			army={
+				large="gfx/leaders/Western_European/Portrait_Norway_Oliver_Moystad.tga"
+			}
+			army={
+				small="gfx/leaders/Western_European/Portrait_Norway_Oliver_Moystad.tga"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	SCA_anders_lovenbalk={
+		name=SCA_anders_lovenbalk
+		portraits={
+			army={
+				large="GFX_Portrait_Europe_Generic_land_5"
+			}
+			army={
+				small="GFX_Portrait_Europe_Generic_land_5"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	SCA_aage_asp_persson={
+		name=SCA_aage_asp_persson
+		portraits={
+			navy={
+				large="GFX_Austria_Miklos_Horthy"
+			}
+			navy={
+				small="GFX_Austria_Miklos_Horthy"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=4
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	SCA_axel_danneskjold_samso={
+		name=SCA_axel_danneskjold_samso
+		portraits={
+			civilian={
+				large="gfx/leaders/NOR/Portrait_Norway_Johan_Nygaardsvold.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=127
+	name="STATE_127"
+
+	history={
+		owner = X49
+		victory_points = {
+			4658 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X49
+	}
+
+	provinces={
+		4453 4478 4500 4658 7471 7496 7533 7649 10500 12377 
+	}
+	manpower=9840
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

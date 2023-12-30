@@ -1,0 +1,36 @@
+characters={
+	SUD_wiraj_digna={
+		name=SUD_wiraj_digna
+		portraits={
+			army={
+				large="GFX_SOM_Barre"
+			}
+			army={
+				small="GFX_SOM_Barre"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	SUD_muhammad_hammuda={
+		name=SUD_muhammad_hammuda
+		portraits={
+			civilian={
+				large="GFX_Africa_Generic_new_1"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

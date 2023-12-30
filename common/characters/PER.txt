@@ -1,0 +1,76 @@
+characters={
+	PER_hossein_tahmasebi={
+		name=PER_hossein_tahmasebi
+		portraits={
+			army={
+				large="GFX_Oman_Suleiman_Ryami"
+			}
+			army={
+				small="GFX_Oman_Suleiman_Ryami"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	PER_abolghasem_meshhedi={
+		name=PER_abolghasem_meshhedi
+		portraits={
+			army={
+				large="GFX_SYR_Sami_Al_Hinawi"
+			}
+			army={
+				small="GFX_SYR_Sami_Al_Hinawi"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	PER_hossein_meshhedi={
+		name=PER_hossein_meshhedi
+		portraits={
+			navy={
+				large="GFX_Portrait_Arabia_Generic_navy_2"
+			}
+			navy={
+				small="GFX_Portrait_Arabia_Generic_navy_2"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=2
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	PER_abdolhossein_khan={
+		name=PER_abdolhossein_khan
+		portraits={
+			civilian={
+				large="GFX_Afgahnistan_Habibullah_Khan"
+			}
+		}
+		country_leader={
+			ideology=prussian_const
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,76 @@
+characters={
+	X93_hermano_diaz={
+		name=X93_hermano_diaz
+		portraits={
+			army={
+				large="GFX_Portrait_Asia_Generic_land_3"
+			}
+			army={
+				small="GFX_Portrait_Asia_Generic_land_3"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X93_mariano_mabini={
+		name=X93_mariano_mabini
+		portraits={
+			army={
+				large="GFX_Portrait_Asia_Generic_land_3"
+			}
+			army={
+				small="GFX_Portrait_Asia_Generic_land_3"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X93_emilio_plata={
+		name=X93_emilio_plata
+		portraits={
+			navy={
+				large="GFX_Asia_Generic_navy_new_1"
+			}
+			navy={
+				small="GFX_Asia_Generic_navy_new_1"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	X93_antonio_bonifacio={
+		name=X93_antonio_bonifacio
+		portraits={
+			civilian={
+				large="GFX_Indonesia_Mohammad_Hatta"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

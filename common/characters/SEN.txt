@@ -1,0 +1,56 @@
+characters={
+	SEN_hubert_smith={
+		name=SEN_hubert_smith
+		portraits={
+			army={
+				large="GFX_portrait_ENG_harold_alexander"
+			}
+			army={
+				small="GFX_portrait_ENG_harold_alexander"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	SEN_edwar_milne={
+		name=SEN_edwar_milne
+		portraits={
+			army={
+				large="GFX_Portrait_Britain_Generic_land_5"
+			}
+			army={
+				small="GFX_Portrait_Britain_Generic_land_5"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	SEN_horatio_wood={
+		name=SEN_horatio_wood
+		portraits={
+			civilian={
+				large="gfx/leaders/MAL/portrait_mal_shenton_thomas.dds"
+			}
+		}
+		country_leader={
+			ideology=prussian_const
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

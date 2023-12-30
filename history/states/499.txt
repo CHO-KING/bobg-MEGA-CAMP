@@ -1,0 +1,33 @@
+
+state={
+	id=499
+	name="STATE_499"
+
+	history={
+		owner = PER
+		victory_points = {
+			7011 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			4076 = {
+				naval_base = 1
+			}
+			air_base = 6
+
+		}
+		add_core_of = EGY
+		add_core_of = V07
+	}
+
+	provinces={
+		4076 4145 7011 7091 10005 10073 11964 
+	}
+	manpower=6068036
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

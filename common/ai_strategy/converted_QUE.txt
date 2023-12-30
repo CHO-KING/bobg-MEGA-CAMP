@@ -1,0 +1,83 @@
+﻿converted_war_strategies_QUE = {
+	enable = {
+		tag = QUE
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "USA"
+		value = 3706
+	}
+}
+
+converted_diplo_strategies_QUE = {
+	enable = {
+		tag = QUE
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "USA"
+		value = 368
+	}
+	ai_strategy = {
+		type = contain
+		id = "BRA"
+		value = 340
+	}
+	ai_strategy = {
+		type = contain
+		id = "X48"
+		value = 102
+	}
+	ai_strategy = {
+		type = contain
+		id = "ENG"
+		value = 99
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 105
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "W38"
+		value = 92
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SCA"
+		value = 39
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ITA"
+		value = 38
+	}
+	ai_strategy = {
+		type = protect
+		id = "X01"
+		value = 20
+	}
+}

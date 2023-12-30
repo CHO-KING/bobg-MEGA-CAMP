@@ -1,0 +1,31 @@
+
+state={
+	id=544
+	name="STATE_544"
+
+	history={
+		owner = SOV
+		victory_points = {
+			11479 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = X88
+		add_claim_by = POL
+		add_claim_by = SOV
+	}
+
+	provinces={
+		438 491 536 3483 3562 3743 6431 6460 6483 9425 9454 9468 9558 11411 11427 11479 11550 
+	}
+	manpower=5475976
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=779
+	name="STATE_779"
+
+	history={
+		owner = V16
+		victory_points = {
+			4303 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 8
+			arms_factory = 3
+			air_base = 8
+
+		}
+		add_core_of = V16
+	}
+
+	provinces={
+		1220 1314 1371 4227 4300 4303 4374 4376 7337 10131 10164 10295 12108 12139 12163 
+	}
+	manpower=35720
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

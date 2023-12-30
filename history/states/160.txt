@@ -1,0 +1,36 @@
+
+state={
+	id=160
+	name="STATE_160"
+	resources={
+		rubber=8.000
+	}
+
+	history={
+		owner = V50
+		victory_points = {
+			1098 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			7311 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+		add_core_of = V50
+		add_core_of = X98
+	}
+
+	provinces={
+		1098 1289 1484 1505 1518 4262 4307 4493 4537 4564 7311 7336 10153 10169 10197 10450 12358 12444 
+	}
+	manpower=964944
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

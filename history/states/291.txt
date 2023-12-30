@@ -1,0 +1,33 @@
+
+state={
+	id=291
+	name="STATE_291"
+
+	history={
+		owner = GAB
+		victory_points = {
+			1903 4 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 2
+			dockyard = 2
+			1903 = {
+				naval_base = 8
+			}
+			air_base = 1
+
+		}
+		add_core_of = GAB
+	}
+
+	provinces={
+		1903 8244 
+	}
+	manpower=190204
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

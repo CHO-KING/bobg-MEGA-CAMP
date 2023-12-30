@@ -1,0 +1,32 @@
+
+state={
+	id=459
+	name="STATE_459"
+	resources={
+		steel=2.000
+	}
+
+	history={
+		owner = HOL
+		victory_points = {
+			6377 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = HOL
+	}
+
+	provinces={
+		405 425 526 3355 3561 6377 6513 9524 11402 11493 
+	}
+	manpower=3392064
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

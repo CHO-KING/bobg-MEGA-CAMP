@@ -1,0 +1,76 @@
+characters={
+	CYP_antonios_gonatas={
+		name=CYP_antonios_gonatas
+		portraits={
+			army={
+				large="GFX_portrait_MEX_Luis_Maria_Martinez"
+			}
+			army={
+				small="GFX_portrait_MEX_Luis_Maria_Martinez"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	CYP_georgios_foumis={
+		name=CYP_georgios_foumis
+		portraits={
+			army={
+				large="GFX_Portrait_europe_generic_land_9"
+			}
+			army={
+				small="GFX_Portrait_europe_generic_land_9"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	CYP_ilias_vassos={
+		name=CYP_ilias_vassos
+		portraits={
+			navy={
+				large="GFX_portrait_ITA_carlo_bergamini"
+			}
+			navy={
+				small="GFX_portrait_ITA_carlo_bergamini"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=3
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	CYP_staikos_sapountzakis={
+		name=CYP_staikos_sapountzakis
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/portrait_ita_ferruccio_parri.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

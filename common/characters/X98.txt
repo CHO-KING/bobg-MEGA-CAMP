@@ -1,0 +1,76 @@
+characters={
+	X98_denny_bouma={
+		name=X98_denny_bouma
+		portraits={
+			army={
+				large="GFX_Philippines_Manuel_F_Cabal"
+			}
+			army={
+				small="GFX_Philippines_Manuel_F_Cabal"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X98_jordao_pattinama={
+		name=X98_jordao_pattinama
+		portraits={
+			army={
+				large="GFX_Sarawak_Ye_Jianying"
+			}
+			army={
+				small="GFX_Sarawak_Ye_Jianying"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X98_sonny_weisapy={
+		name=X98_sonny_weisapy
+		portraits={
+			army={
+				large="GFX_Asia_Generic_land_new_1"
+			}
+			army={
+				small="GFX_Asia_Generic_land_new_1"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X98_jos_leiwakabessy={
+		name=X98_jos_leiwakabessy
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/portrait_asia_generic_4.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

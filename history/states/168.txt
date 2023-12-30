@@ -1,0 +1,34 @@
+
+state={
+	id=168
+	name="STATE_168"
+	resources={
+		aluminium=32.000
+	}
+
+	history={
+		owner = ENG
+		victory_points = {
+			4982 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			10906 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		4982 8107 10906 12828 
+	}
+	manpower=228124
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

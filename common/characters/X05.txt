@@ -1,0 +1,16 @@
+characters={
+	X05_king_nire={
+		name=X05_king_nire
+		portraits={
+			civilian={
+				large="GFX_Japan_Yasuhito"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

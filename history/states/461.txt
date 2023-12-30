@@ -1,0 +1,32 @@
+
+state={
+	id=461
+	name="STATE_461"
+
+	history={
+		owner = HOL
+		victory_points = {
+			3326 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			241 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+		add_core_of = HOL
+	}
+
+	provinces={
+		241 247 309 336 3326 9281 11233 11264 11360 
+	}
+	manpower=1691892
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

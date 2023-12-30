@@ -1,0 +1,38 @@
+﻿converted_war_strategies_X50 = {
+	enable = {
+		tag = X50
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "W97"
+		value = 347
+	}
+}
+
+converted_diplo_strategies_X50 = {
+	enable = {
+		tag = X50
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "W97"
+		value = 381
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 6
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "CYP"
+		value = 49
+	}
+}

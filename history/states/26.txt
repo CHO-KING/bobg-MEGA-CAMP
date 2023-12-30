@@ -1,0 +1,30 @@
+
+state={
+	id=26
+	name="STATE_26"
+
+	history={
+		owner = BAY
+		victory_points = {
+			646 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = ROM
+		add_claim_by = BAY
+	}
+
+	provinces={
+		646 662 3649 9606 11592 11608 
+	}
+	manpower=1828108
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

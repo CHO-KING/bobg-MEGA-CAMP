@@ -1,0 +1,33 @@
+
+state={
+	id=38
+	name="STATE_38"
+
+	history={
+		owner = BRU
+		victory_points = {
+			4429 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 6
+			arms_factory = 3
+			dockyard = 2
+			4429 = {
+				naval_base = 1
+			}
+			air_base = 8
+
+		}
+		add_core_of = BRU
+	}
+
+	provinces={
+		4429 7419 10145 
+	}
+	manpower=107232
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

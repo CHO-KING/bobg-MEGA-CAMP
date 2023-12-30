@@ -1,0 +1,35 @@
+
+state={
+	id=190
+	name="STATE_190"
+	resources={
+		chromium=2.000
+	}
+
+	history={
+		owner = V52
+		victory_points = {
+			2200 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			5185 = {
+				naval_base = 6
+			}
+			air_base = 0
+
+		}
+		add_core_of = V52
+	}
+
+	provinces={
+		2200 5185 8180 8246 10993 11015 12956 
+	}
+	manpower=2239856
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

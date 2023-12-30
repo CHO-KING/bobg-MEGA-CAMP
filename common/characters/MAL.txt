@@ -1,0 +1,76 @@
+characters={
+	MAL_ali_riayat_shah={
+		name=MAL_ali_riayat_shah
+		portraits={
+			army={
+				large="GFX_AOG_Generic_1"
+			}
+			army={
+				small="GFX_AOG_Generic_1"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	MAL_ali_murshidul={
+		name=MAL_ali_murshidul
+		portraits={
+			army={
+				large="GFX_Philippines_Carlos_P_Romulo"
+			}
+			army={
+				small="GFX_Philippines_Carlos_P_Romulo"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	MAL_safiuddin_al_marhum={
+		name=MAL_safiuddin_al_marhum
+		portraits={
+			navy={
+				large="GFX_Indonesia_Yos_Sudarso"
+			}
+			navy={
+				small="GFX_Indonesia_Yos_Sudarso"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	MAL_ali_riayat_shah_1={
+		name=MAL_ali_riayat_shah_1
+		portraits={
+			civilian={
+				large="GFX_Malaya_Hisamuddin_of_Selangor"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,56 @@
+characters={
+	HOL_merkus_de_casembroot={
+		name=HOL_merkus_de_casembroot
+		portraits={
+			army={
+				large="GFX_portrait_FRA_henri_giraud"
+			}
+			army={
+				small="GFX_portrait_FRA_henri_giraud"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=1
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	HOL_christoffel_van_ham={
+		name=HOL_christoffel_van_ham
+		portraits={
+			navy={
+				large="GFX_Portrait_France_Generic_navy_3"
+			}
+			navy={
+				small="GFX_Portrait_France_Generic_navy_3"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=4
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	HOL_frans_staal={
+		name=HOL_frans_staal
+		portraits={
+			civilian={
+				large="GFX_Canada_King_George"
+			}
+		}
+		country_leader={
+			ideology=prussian_const
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

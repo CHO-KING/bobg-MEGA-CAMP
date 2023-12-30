@@ -1,0 +1,16 @@
+characters={
+	W39_shichiro_akiyama={
+		name=W39_shichiro_akiyama
+		portraits={
+			civilian={
+				large="gfx/leaders/JAP/portrait_jap_tetsu_katayama.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

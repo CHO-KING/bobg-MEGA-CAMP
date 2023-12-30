@@ -1,0 +1,38 @@
+
+state={
+	id=310
+	name="STATE_310"
+	resources={
+		aluminium=2.000
+		rubber=9.000
+		tungsten=2.000
+	}
+
+	history={
+		owner = RAJ
+		victory_points = {
+			10278 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			10278 = {
+				naval_base = 2
+			}
+			air_base = 1
+
+		}
+		add_core_of = RAJ
+		add_core_of = W31
+	}
+
+	provinces={
+		1268 1344 1381 1409 4315 4327 4416 4420 7265 7288 7363 7436 8067 10130 10149 10246 10274 10278 10808 12164 12247 
+	}
+	manpower=13832440
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

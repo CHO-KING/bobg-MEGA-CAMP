@@ -1,0 +1,37 @@
+
+state={
+	id=526
+	name="STATE_526"
+	resources={
+		tungsten=2.000
+	}
+
+	history={
+		owner = QUE
+		victory_points = {
+			1408 10 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 1
+			1408 = {
+				naval_base = 4
+			}
+			air_base = 5
+
+		}
+		add_core_of = X36
+		add_claim_by = QUE
+	}
+
+	provinces={
+		1408 1737 4413 4428 7753 7761 7853 10644 
+	}
+	manpower=81820
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

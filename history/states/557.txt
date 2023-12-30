@@ -1,0 +1,33 @@
+
+state={
+	id=557
+	name="STATE_557"
+
+	history={
+		owner = SOV
+		victory_points = {
+			6420 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			11700 = {
+				naval_base = 4
+			}
+			air_base = 6
+
+		}
+		add_core_of = V42
+		add_claim_by = SOV
+	}
+
+	provinces={
+		429 568 588 721 737 767 3399 3421 3449 3466 3573 3767 6420 6474 6493 6596 6771 6776 9571 9712 9729 11405 11700 
+	}
+	manpower=1087908
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

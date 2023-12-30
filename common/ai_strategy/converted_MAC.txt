@@ -1,0 +1,133 @@
+﻿converted_war_strategies_MAC = {
+	enable = {
+		tag = MAC
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "X24"
+		value = 1039
+	}
+	ai_strategy = {
+		type = conquer
+		id = "BAY"
+		value = 1022
+	}
+	ai_strategy = {
+		type = conquer
+		id = "BOS"
+		value = 511
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SER"
+		value = 393
+	}
+}
+
+converted_diplo_strategies_MAC = {
+	enable = {
+		tag = MAC
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "X24"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 359
+	}
+	ai_strategy = {
+		type = contain
+		id = "SCA"
+		value = 114
+	}
+	ai_strategy = {
+		type = contain
+		id = "SER"
+		value = 91
+	}
+	ai_strategy = {
+		type = contain
+		id = "BOS"
+		value = 90
+	}
+	ai_strategy = {
+		type = contain
+		id = "FRA"
+		value = 75
+	}
+	ai_strategy = {
+		type = contain
+		id = "BAY"
+		value = 73
+	}
+	ai_strategy = {
+		type = contain
+		id = "X42"
+		value = 72
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X24"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "BAY"
+		value = 316
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "BOS"
+		value = 237
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SER"
+		value = 11
+	}
+	ai_strategy = {
+		type = alliance
+		id = "POL"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "PER"
+		value = 81
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ITA"
+		value = 49
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = 47
+	}
+	ai_strategy = {
+		type = protect
+		id = "BOS"
+		value = 120
+	}
+	ai_strategy = {
+		type = protect
+		id = "X42"
+		value = 20
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "BOS"
+		value = 38
+	}
+}

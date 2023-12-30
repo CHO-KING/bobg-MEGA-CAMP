@@ -1,0 +1,36 @@
+
+state={
+	id=515
+	name="STATE_515"
+	resources={
+		aluminium=6.000
+		steel=9.000
+	}
+
+	history={
+		owner = POL
+		victory_points = {
+			9334 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			9334 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+		add_core_of = POL
+	}
+
+	provinces={
+		444 3473 3572 6236 9252 9277 9306 9334 9361 9387 11260 11288 11316 11343 11372 11478 
+	}
+	manpower=1781252
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

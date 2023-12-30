@@ -1,0 +1,36 @@
+
+state={
+	id=765
+	name="STATE_765"
+	resources={
+		aluminium=1.000
+		steel=1.000
+	}
+
+	history={
+		owner = W97
+		victory_points = {
+			5175 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			8130 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_core_of = W97
+	}
+
+	provinces={
+		1526 2191 2201 5125 5175 5207 8130 8152 8209 8243 8247 10937 10950 10958 10969 10971 10997 11011 11016 12948 12962 12976 12990 12993 
+	}
+	manpower=26262
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

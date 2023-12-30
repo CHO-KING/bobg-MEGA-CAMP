@@ -1,0 +1,33 @@
+
+state={
+	id=636
+	name="STATE_636"
+
+	history={
+		owner = V63
+		victory_points = {
+			7408 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			1427 = {
+				naval_base = 1
+			}
+			air_base = 6
+
+		}
+		add_core_of = SIA
+		add_core_of = V63
+	}
+
+	provinces={
+		1427 4566 7312 7338 7353 7367 7408 7544 7559 7572 10221 10250 10398 10411 12173 12345 
+	}
+	manpower=3097748
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

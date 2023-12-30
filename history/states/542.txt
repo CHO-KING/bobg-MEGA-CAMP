@@ -1,0 +1,35 @@
+
+state={
+	id=542
+	name="STATE_542"
+
+	history={
+		owner = SOV
+		victory_points = {
+			9548 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 0
+			air_base = 10
+
+		}
+		add_core_of = MOL
+		add_core_of = ROM
+		add_core_of = W81
+		add_core_of = X18
+		add_core_of = X88
+		add_claim_by = POL
+		add_claim_by = SOV
+	}
+
+	provinces={
+		577 723 744 3728 3741 6584 6706 6729 6747 6761 9548 9685 9701 9716 11534 11652 11655 11672 11689 
+	}
+	manpower=3521552
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

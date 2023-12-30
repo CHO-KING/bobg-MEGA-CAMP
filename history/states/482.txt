@@ -1,0 +1,35 @@
+
+state={
+	id=482
+	name="STATE_482"
+
+	history={
+		owner = PER
+		victory_points = {
+			1086 10 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			1015 = {
+				naval_base = 1
+			}
+			air_base = 5
+
+		}
+		add_core_of = PAL
+		add_core_of = SYR
+		add_claim_by = EGY
+		add_claim_by = V07
+	}
+
+	provinces={
+		1015 1065 1086 1201 4088 4206 7107 7176 11970 
+	}
+	manpower=796024
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

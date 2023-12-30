@@ -1,0 +1,56 @@
+characters={
+	GAB_leopold_milne={
+		name=GAB_leopold_milne
+		portraits={
+			army={
+				large="GFX_Portrait_Britain_Generic_land_2"
+			}
+			army={
+				small="GFX_Portrait_Britain_Generic_land_2"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	GAB_russell_jellicoe={
+		name=GAB_russell_jellicoe
+		portraits={
+			navy={
+				large="GFX_portrait_USA_ernest_king"
+			}
+			navy={
+				small="GFX_portrait_USA_ernest_king"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	GAB_colbert_wolseley={
+		name=GAB_colbert_wolseley
+		portraits={
+			civilian={
+				large="gfx/leaders/CAN/Portrait_Canada_Mackenzie_King.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

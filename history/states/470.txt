@@ -1,0 +1,34 @@
+
+state={
+	id=470
+	name="STATE_470"
+
+	history={
+		owner = OMA
+		victory_points = {
+			5049 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			arms_factory = 2
+			dockyard = 2
+			1947 = {
+				naval_base = 1
+			}
+			air_base = 8
+
+		}
+		add_core_of = OMA
+		add_claim_by = EGY
+	}
+
+	provinces={
+		1947 2018 2059 2103 5049 8002 8020 10760 
+	}
+	manpower=159744
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

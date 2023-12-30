@@ -1,0 +1,19 @@
+
+state={
+	id=768
+	name="STATE_768"
+	impassable = yes
+
+	history={
+		owner = W97
+	}
+
+	provinces={
+		2223 8237 10979 11013 12915 12936 12992 
+	}
+	manpower=2972
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=10.0
+}

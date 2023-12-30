@@ -1,0 +1,78 @@
+﻿converted_war_strategies_TOG = {
+	enable = {
+		tag = TOG
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "ENG"
+		value = 3052
+	}
+	ai_strategy = {
+		type = conquer
+		id = "W97"
+		value = 78
+	}
+}
+
+converted_diplo_strategies_TOG = {
+	enable = {
+		tag = TOG
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "ENG"
+		value = 387
+	}
+	ai_strategy = {
+		type = contain
+		id = "BRA"
+		value = 361
+	}
+	ai_strategy = {
+		type = contain
+		id = "ITA"
+		value = 151
+	}
+	ai_strategy = {
+		type = contain
+		id = "GAB"
+		value = 57
+	}
+	ai_strategy = {
+		type = contain
+		id = "SEN"
+		value = 8
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ITA"
+		value = 29
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ITA"
+		value = 200
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "CYP"
+		value = 65
+	}
+}

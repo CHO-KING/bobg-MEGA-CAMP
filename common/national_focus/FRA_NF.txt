@@ -1,0 +1,345 @@
+focus_tree = {
+	id = FRA_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = FRA
+		}
+	}
+	
+	default = no
+	
+	shared_focus = army_effort
+	shared_focus = aviation_effort
+	shared_focus = naval_effort
+	shared_focus = industrial_effort
+	shared_focus = political_effort
+
+	focus = {
+		id = Home_of_RevolutionFRA
+		icon = GFX_goal_support_communism
+		text = Home_of_Revolution
+		x = 27
+		y = 0
+		cost = 10
+		completion_reward = {
+		add_ideas = communist_influence
+	}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = Influence_BAY_FRA
+		icon = GFX_goal_generic_propaganda
+		text = Influence_BAY
+		prerequisite = { focus = Home_of_RevolutionFRA }
+		x = 26
+		y = 1
+		cost = 10
+		completion_reward = {
+			BAY = {
+				if = {
+					limit = {
+						ROOT = {
+							has_government = absolutist
+						}
+					}
+					add_ideas = absolutist_influence
+				}
+				if = {
+					limit = {
+						ROOT = {
+							has_government = communism
+						}
+					}
+					add_ideas = communist_influence
+				}
+				if = {
+					limit = {
+						ROOT = {
+							has_government = democratic
+						}
+					}
+					add_ideas = democratic_influence
+				}
+				if = {
+					limit = {
+						ROOT = {
+							has_government = fascism
+						}
+					}
+					add_ideas = fascist_influence
+				}
+				country_event = { id = generic.1 }
+			}
+		}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = Coup_BAY_FRA
+		icon = GFX_goal_generic_demand_territory
+		text = Coup_BAY
+		prerequisite = { focus = Influence_BAY_FRA }
+		x = 0
+		y = 1
+		relative_position_id = Influence_BAY_FRA
+		cost = 10
+		available = {
+		BAY = { communism > 0.5 }
+	}
+		completion_reward = {
+		BAY = {
+			start_civil_war = {
+				ideology = communism
+				size = 0.5
+			}
+		}
+	}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = Influence_SPB_FRA
+		icon = GFX_goal_generic_propaganda
+		text = Influence_SPB
+		prerequisite = { focus = Home_of_RevolutionFRA }
+		x = 28
+		y = 1
+		cost = 10
+		completion_reward = {
+			SPB = {
+				if = {
+					limit = {
+						ROOT = {
+							has_government = absolutist
+						}
+					}
+					add_ideas = absolutist_influence
+				}
+				if = {
+					limit = {
+						ROOT = {
+							has_government = communism
+						}
+					}
+					add_ideas = communist_influence
+				}
+				if = {
+					limit = {
+						ROOT = {
+							has_government = democratic
+						}
+					}
+					add_ideas = democratic_influence
+				}
+				if = {
+					limit = {
+						ROOT = {
+							has_government = fascism
+						}
+					}
+					add_ideas = fascist_influence
+				}
+				country_event = { id = generic.1 }
+			}
+		}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = Coup_SPB_FRA
+		icon = GFX_goal_generic_demand_territory
+		text = Coup_SPB
+		prerequisite = { focus = Influence_SPB_FRA }
+		x = 0
+		y = 1
+		relative_position_id = Influence_SPB_FRA
+		cost = 10
+		available = {
+		SPB = { communism > 0.5 }
+	}
+		completion_reward = {
+		SPB = {
+			start_civil_war = {
+				ideology = communism
+				size = 0.5
+			}
+		}
+	}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = StrengthComFRA
+		icon = GFX_goal_support_communism
+		text = StrengthCom
+		x = 32
+		y = 0
+		cost = 10
+		completion_reward = {
+		army_experience = 20
+		add_doctrine_cost_reduction = {
+			name = land_doc_bonus
+			cost_reduction = 0.3
+			uses = 2
+			category = land_doctrine
+		}
+	}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = Inter_Com_PresFRA
+		icon = GFX_goal_generic_dangerous_deal
+		text = Inter_Com_Pres
+		prerequisite = { focus = StrengthComFRA }
+		x = 0
+		y = 1
+		relative_position_id = StrengthComFRA
+		cost = 10
+		available = {
+		date > 1937.1.1
+	}
+		completion_reward = {
+		add_named_threat = { threat = 2 name = Inter_Com_Pres }
+		add_political_power = 150
+	}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = WarSPBFRA
+		icon = GFX_goal_generic_major_war
+		text = WarSPB
+		prerequisite = { focus = Inter_Com_PresFRA }
+		bypass = {
+		has_war_with = SPB
+	}
+		x = 30
+		y = 2
+		cost = 10
+		available = {
+		date > 1938.1.1
+
+	}
+		completion_reward = {
+		add_named_threat = { threat = 3 name = "War with Carlist Spain" }
+		create_wargoal = {
+			type = puppet_wargoal_focus
+			target = SPB
+		}
+	}
+		ai_will_do = {
+		factor = 5
+		modifier = {
+			factor = 0
+			strength_ratio = { tag = SPB ratio < 1 }
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				has_war_with = BAY
+				has_war_with = V09
+
+			}
+		}
+	}
+	}
+
+	focus = {
+		id = WarBAYFRA
+		icon = GFX_goal_generic_major_war
+		text = WarBAY
+		prerequisite = { focus = Inter_Com_PresFRA }
+		bypass = {
+		has_war_with = BAY
+	}
+		x = 32
+		y = 2
+		cost = 10
+		available = {
+		date > 1938.3.1
+
+	}
+		completion_reward = {
+		add_named_threat = { threat = 3 name = "War with Bavaria" }
+		create_wargoal = {
+			type = puppet_wargoal_focus
+			target = BAY
+		}
+	}
+		ai_will_do = {
+		factor = 5
+		modifier = {
+			factor = 0
+			strength_ratio = { tag = BAY ratio < 1 }
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				has_war_with = SPB
+				has_war_with = V09
+
+			}
+		}
+	}
+	}
+
+	focus = {
+		id = WarV09FRA
+		icon = GFX_goal_generic_major_war
+		text = WarV09
+		prerequisite = { focus = Inter_Com_PresFRA }
+		bypass = {
+		has_war_with = V09
+	}
+		x = 34
+		y = 2
+		cost = 10
+		available = {
+		date > 1939.8.1
+
+	}
+		completion_reward = {
+		add_named_threat = { threat = 3 name = "War with Mayurqa" }
+		create_wargoal = {
+			type = puppet_wargoal_focus
+			target = V09
+		}
+	}
+		ai_will_do = {
+		factor = 5
+		modifier = {
+			factor = 0
+			strength_ratio = { tag = V09 ratio < 1 }
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				has_war_with = SPB
+				has_war_with = BAY
+
+			}
+		}
+	}
+	}
+
+}

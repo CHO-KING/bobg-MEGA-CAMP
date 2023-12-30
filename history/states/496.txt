@@ -1,0 +1,31 @@
+
+state={
+	id=496
+	name="STATE_496"
+
+	history={
+		owner = PER
+		victory_points = {
+			10737 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = AFG
+		add_claim_by = PER
+		add_claim_by = V17
+	}
+
+	provinces={
+		1995 2078 4893 7448 7519 7584 7916 7984 8053 10476 10737 10781 10826 10852 10896 12248 12314 12653 12788 12871 12877 
+	}
+	manpower=3765800
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

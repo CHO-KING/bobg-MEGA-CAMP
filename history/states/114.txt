@@ -1,0 +1,32 @@
+
+state={
+	id=114
+	name="STATE_114"
+
+	history={
+		owner = X31
+		victory_points = {
+			13063 15 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			13063 = {
+				naval_base = 1
+			}
+			air_base = 5
+
+		}
+		add_core_of = X31
+	}
+
+	provinces={
+		13063 13204 13254 
+	}
+	manpower=392
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=10.0
+}

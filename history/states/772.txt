@@ -1,0 +1,33 @@
+
+state={
+	id=772
+	name="STATE_772"
+
+	history={
+		owner = V00
+		victory_points = {
+			4450 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			arms_factory = 2
+			dockyard = 2
+			4450 = {
+				naval_base = 1
+			}
+			air_base = 8
+
+		}
+		add_core_of = V00
+	}
+
+	provinces={
+		4450 9377 
+	}
+	manpower=155636
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

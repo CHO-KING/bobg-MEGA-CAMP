@@ -1,0 +1,56 @@
+characters={
+	W52_eroni_cokanauto={
+		name=W52_eroni_cokanauto
+		portraits={
+			army={
+				large="GFX_Portrait_Africa_Generic_land_3"
+			}
+			army={
+				small="GFX_Portrait_Africa_Generic_land_3"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	W52_ti_abel_hortense={
+		name=W52_ti_abel_hortense
+		portraits={
+			army={
+				large="GFX_Portrait_Africa_Generic_land_3"
+			}
+			army={
+				small="GFX_Portrait_Africa_Generic_land_3"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	W52_taltai_loganimoce={
+		name=W52_taltai_loganimoce
+		portraits={
+			civilian={
+				large="GFX_SUD_Abd_Mahdi"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

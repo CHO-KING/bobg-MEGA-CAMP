@@ -1,0 +1,29 @@
+
+state={
+	id=780
+	name="STATE_780"
+
+	history={
+		owner = V20
+		victory_points = {
+			12837 20 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 8
+			arms_factory = 3
+			air_base = 8
+
+		}
+		add_core_of = V20
+	}
+
+	provinces={
+		1918 1999 4407 4999 7988 8104 10841 10856 12724 12837 
+	}
+	manpower=1671356
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

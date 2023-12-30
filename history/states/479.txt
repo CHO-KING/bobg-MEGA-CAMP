@@ -1,0 +1,31 @@
+
+state={
+	id=479
+	name="STATE_479"
+
+	history={
+		owner = PER
+		victory_points = {
+			12316 15 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = SYR
+		add_core_of = V28
+		add_claim_by = PER
+	}
+
+	provinces={
+		901 1549 1578 1606 1634 2013 3942 4486 6883 7184 7513 10383 10882 12316 12442 
+	}
+	manpower=368512
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

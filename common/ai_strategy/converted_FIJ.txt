@@ -1,0 +1,63 @@
+﻿converted_war_strategies_FIJ = {
+	enable = {
+		tag = FIJ
+		always = no
+	}
+	
+}
+
+converted_diplo_strategies_FIJ = {
+	enable = {
+		tag = FIJ
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "W60"
+		value = 63
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 32
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "BRA"
+		value = 1
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SPB"
+		value = 1
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 1
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "W35"
+		value = 83
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "W00"
+		value = 37
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "W05"
+		value = 37
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X85"
+		value = 26
+	}
+}

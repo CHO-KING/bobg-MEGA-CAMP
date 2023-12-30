@@ -1,0 +1,34 @@
+
+state={
+	id=2
+	name="STATE_2"
+
+	history={
+		owner = X06
+		victory_points = {
+			4189 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 6
+			arms_factory = 3
+			dockyard = 2
+			4189 = {
+				naval_base = 4
+			}
+			air_base = 8
+
+		}
+		add_core_of = X06
+		add_claim_by = W01
+	}
+
+	provinces={
+		4189 
+	}
+	manpower=108624
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

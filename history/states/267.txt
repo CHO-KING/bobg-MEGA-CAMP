@@ -1,0 +1,29 @@
+
+state={
+	id=267
+	name="STATE_267"
+
+	history={
+		owner = FRA
+		victory_points = {
+			13011 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = FRA
+	}
+
+	provinces={
+		551 680 698 3506 3533 3666 6531 6698 9472 9490 9642 9658 11732 13011 
+	}
+	manpower=2574024
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

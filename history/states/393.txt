@@ -1,0 +1,34 @@
+
+state={
+	id=393
+	name="STATE_393"
+
+	history={
+		owner = X73
+		victory_points = {
+			7427 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			7427 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+		add_core_of = MAL
+		add_core_of = X73
+	}
+
+	provinces={
+		7427 
+	}
+	manpower=39244
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

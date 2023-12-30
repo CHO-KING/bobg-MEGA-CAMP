@@ -1,0 +1,124 @@
+﻿capital = 551
+set_research_slots = 3
+
+oob = "W71_OOB"
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_ukraine
+set_convoys = 0
+
+set_politics = {
+    ruling_party = absolutist
+    last_election = "1836.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 90
+	democratic = 7
+	neutrality = 3
+}
+
+add_opinion_modifier = { target = BAY modifier = positive_15 }
+add_opinion_modifier = { target = BRA modifier = negative_10 }
+add_opinion_modifier = { target = CUB modifier = negative_15 }
+add_opinion_modifier = { target = ENG modifier = positive_15 }
+add_opinion_modifier = { target = FRA modifier = negative_95 }
+add_opinion_modifier = { target = GAB modifier = negative_200 }
+add_opinion_modifier = { target = HOL modifier = negative_5 }
+add_opinion_modifier = { target = ITA modifier = positive_15 }
+add_opinion_modifier = { target = OMA modifier = positive_25 }
+add_opinion_modifier = { target = POL modifier = positive_15 }
+add_opinion_modifier = { target = QUE modifier = negative_15 }
+add_opinion_modifier = { target = SCA modifier = negative_5 }
+add_opinion_modifier = { target = SOV modifier = positive_30 }
+add_opinion_modifier = { target = SPB modifier = negative_10 }
+add_opinion_modifier = { target = USA modifier = negative_10 }
+add_opinion_modifier = { target = V00 modifier = negative_10 }
+add_opinion_modifier = { target = W38 modifier = negative_30 }
+add_opinion_modifier = { target = W74 modifier = positive_50 }
+add_opinion_modifier = { target = W97 modifier = negative_15 }
+add_opinion_modifier = { target = X93 modifier = negative_10 }
+
+
+add_ideas = {
+	limited_conscription
+	civilian_economy
+	export_focus
+	culture_pecheneg
+}
+
+recruit_character = W71_king_temir
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Akgul Bayandur"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { W71 }
+	}
+
+	create_operative_leader = {
+		name = "Çilen Paguman"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { W71 }
+	}
+
+	create_operative_leader = {
+		name = "Çiçek Üçok"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { W71 }
+	}
+
+	create_operative_leader = {
+		name = "Suru Batas"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { W71 }
+	}
+
+	create_operative_leader = {
+		name = "Giazis Beçenek"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { W71 }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}
+### PLANE DESIGNS ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+}
+

@@ -1,0 +1,56 @@
+characters={
+	W05_naw_mong={
+		name=W05_naw_mong
+		portraits={
+			army={
+				large="GFX_Portrait_Asia_Generic_land_2"
+			}
+			army={
+				small="GFX_Portrait_Asia_Generic_land_2"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	W05_nga_thi={
+		name=W05_nga_thi
+		portraits={
+			army={
+				large="GFX_Portrait_Asia_Generic_land_4"
+			}
+			army={
+				small="GFX_Portrait_Asia_Generic_land_4"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	W05_king_naw={
+		name=W05_king_naw
+		portraits={
+			civilian={
+				large="gfx/leaders/SIA/Portrait_Siam_Phraya_Phahon.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,36 @@
+characters={
+	W15_abdi_adeer={
+		name=W15_abdi_adeer
+		portraits={
+			army={
+				large="GFX_Portrait_Africa_Generic_land_3"
+			}
+			army={
+				small="GFX_Portrait_Africa_Generic_land_3"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	W15_king_mahamud={
+		name=W15_king_mahamud
+		portraits={
+			civilian={
+				large="gfx/leaders/ETH/Portrait_Ethiopia_Haile_Selassie.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

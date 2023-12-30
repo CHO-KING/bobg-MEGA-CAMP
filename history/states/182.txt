@@ -1,0 +1,33 @@
+
+state={
+	id=182
+	name="STATE_182"
+
+	history={
+		owner = V49
+		victory_points = {
+			7014 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			7014 = {
+				naval_base = 6
+			}
+			air_base = 0
+
+		}
+		add_core_of = V49
+		add_core_of = W01
+	}
+
+	provinces={
+		7014 12076 
+	}
+	manpower=594380
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

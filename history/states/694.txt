@@ -1,0 +1,33 @@
+
+state={
+	id=694
+	name="STATE_694"
+
+	history={
+		owner = W52
+		victory_points = {
+			1326 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 6
+			arms_factory = 3
+			dockyard = 2
+			1339 = {
+				naval_base = 2
+			}
+			air_base = 8
+
+		}
+		add_core_of = W52
+	}
+
+	provinces={
+		1326 1339 1355 4358 12178 12190 13001 
+	}
+	manpower=202652
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

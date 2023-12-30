@@ -1,0 +1,32 @@
+
+state={
+	id=339
+	name="STATE_339"
+
+	history={
+		owner = ITA
+		victory_points = {
+			9945 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			10113 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = MOR
+	}
+
+	provinces={
+		4199 7215 9945 10113 12087 12100 
+	}
+	manpower=384984
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

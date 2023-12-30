@@ -1,0 +1,16 @@
+characters={
+	V42_musa_yanbayev={
+		name=V42_musa_yanbayev
+		portraits={
+			civilian={
+				large="gfx/leaders/KAZ/portrait_kaz_ilyas_zhansugurov.dds"
+			}
+		}
+		country_leader={
+			ideology=dictatorship_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

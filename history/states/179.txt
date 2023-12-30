@@ -1,0 +1,40 @@
+
+state={
+	id=179
+	name="STATE_179"
+	resources={
+		oil=1.000
+		rubber=21.000
+	}
+
+	history={
+		owner = V50
+		victory_points = {
+			4608 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			12472 = {
+				naval_base = 6
+			}
+			air_base = 10
+
+		}
+		add_core_of = INS
+		add_core_of = V50
+		add_core_of = W43
+		add_core_of = X19
+		add_core_of = X96
+	}
+
+	provinces={
+		1209 4306 4390 4608 7654 10479 10491 12293 12472 
+	}
+	manpower=5950836
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

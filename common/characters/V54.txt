@@ -1,0 +1,16 @@
+characters={
+	V54_arthur_madden={
+		name=V54_arthur_madden
+		portraits={
+			civilian={
+				large="gfx/leaders/AST/Portrait_Australia_John_Curtin.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

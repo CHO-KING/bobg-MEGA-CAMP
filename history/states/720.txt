@@ -1,0 +1,33 @@
+
+state={
+	id=720
+	name="STATE_720"
+
+	history={
+		owner = USA
+		victory_points = {
+			3863 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			11782 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = USA
+		add_core_of = X83
+	}
+
+	provinces={
+		3693 3863 6882 9801 9864 11740 11782 11900 
+	}
+	manpower=1392952
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

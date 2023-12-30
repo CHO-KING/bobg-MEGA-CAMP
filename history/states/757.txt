@@ -1,0 +1,30 @@
+
+state={
+	id=757
+	name="STATE_757"
+
+	history={
+		owner = W74
+		victory_points = {
+			5041 10 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = AFA
+		add_claim_by = W74
+	}
+
+	provinces={
+		5041 13236 13240 
+	}
+	manpower=25472
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

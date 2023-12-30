@@ -1,0 +1,76 @@
+characters={
+	W23_ismail_al_khairat={
+		name=W23_ismail_al_khairat
+		portraits={
+			army={
+				large="GFX_Portrait_Asia_Generic_land_2"
+			}
+			army={
+				small="GFX_Portrait_Asia_Generic_land_2"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	W23_idris_muadzam={
+		name=W23_idris_muadzam
+		portraits={
+			army={
+				large="GFX_Portrait_Asia_Generic_land_2"
+			}
+			army={
+				small="GFX_Portrait_Asia_Generic_land_2"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	W23_idris_al_marhum={
+		name=W23_idris_al_marhum
+		portraits={
+			navy={
+				large="GFX_Indonesia_Yos_Sudarso"
+			}
+			navy={
+				small="GFX_Indonesia_Yos_Sudarso"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=3
+			defense_skill=3
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	W23_king_muabidin={
+		name=W23_king_muabidin
+		portraits={
+			civilian={
+				large="GFX_Indonesia_Hamengkubuwono_IX"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

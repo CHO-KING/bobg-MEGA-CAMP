@@ -1,0 +1,32 @@
+
+state={
+	id=258
+	name="STATE_258"
+
+	history={
+		owner = V45
+		victory_points = {
+			7912 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 6
+
+		}
+		add_core_of = ETH
+		add_core_of = V45
+		add_core_of = W92
+		add_core_of = X71
+	}
+
+	provinces={
+		2009 5010 7912 8036 10734 12856 13239 13243 13244 13245 
+	}
+	manpower=6212696
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

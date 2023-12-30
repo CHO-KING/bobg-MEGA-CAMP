@@ -1,0 +1,32 @@
+
+state={
+	id=443
+	name="STATE_443"
+
+	history={
+		owner = W01
+		victory_points = {
+			12819 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 0
+			air_base = 10
+
+		}
+		add_core_of = V24
+		add_core_of = V30
+		add_core_of = W01
+		add_core_of = X46
+	}
+
+	provinces={
+		1257 1367 1395 2045 2067 4375 4403 4925 7240 7294 8026 9966 10132 10726 10787 10817 10903 11972 12141 12705 12819 
+	}
+	manpower=17704512
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

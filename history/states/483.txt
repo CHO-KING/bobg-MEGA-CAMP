@@ -1,0 +1,33 @@
+
+state={
+	id=483
+	name="STATE_483"
+
+	history={
+		owner = PER
+		victory_points = {
+			12372 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+			arms_factory = 0
+			air_base = 10
+
+		}
+		add_core_of = IRQ
+		add_core_of = V18
+		add_core_of = W63
+		add_core_of = W94
+		add_claim_by = PER
+	}
+
+	provinces={
+		1600 1631 1938 2097 3795 3916 4951 5014 6826 8123 10106 10793 10804 10811 12046 12372 12413 12855 
+	}
+	manpower=1959420
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

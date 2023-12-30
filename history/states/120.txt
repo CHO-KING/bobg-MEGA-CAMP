@@ -1,0 +1,37 @@
+
+state={
+	id=120
+	name="STATE_120"
+	resources={
+		oil=4.000
+		tungsten=11.000
+	}
+
+	history={
+		owner = X48
+		victory_points = {
+			1872 15 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			1393 = {
+				naval_base = 1
+			}
+			air_base = 5
+
+		}
+		add_core_of = X48
+	}
+
+	provinces={
+		917 1323 1393 1411 1799 1858 1869 1872 4343 4385 4678 4870 4877 7677 7820 7830 7858 10228 10258 10273 10548 12231 12508 12571 12578 
+	}
+	manpower=40476
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

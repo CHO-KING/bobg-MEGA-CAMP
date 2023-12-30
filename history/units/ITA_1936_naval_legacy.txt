@@ -1,0 +1,73 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 9904
+		task_force = {
+			name = "1st Fleet"
+			location = 9904
+			ship = { name = "1st Lucca Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "1st Rome Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "2nd Lucca Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "1st Genoa Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "Ruggiero di Lauria" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "Francesco Morosini" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "Lepanto" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "Francesco Caracciolo" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "Marco Polo" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "Carlo Alberto" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "Vettor Pisani" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "General Garibaldi" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "General San Martin" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "General Belgrano" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "General Pueyrredon" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "Pisa" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "San Giorgio" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "Amalfi" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "San Marco" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "Brindisi" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "Bari" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "Trieste" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "Marsala" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "Taranto" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "Nino Bixio" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "Fiume" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "Gorizia" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "Pola" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "Zara" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "Bolzano" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "1st Venice Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "1st Ravenna Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "1st Lucca Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "1st Pescara Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "1st Rome Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "1st Genoa Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "1st Naples Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "2nd Venice Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "2nd Ravenna Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "2nd Lucca Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "2nd Rome Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "2nd Naples Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "ITA"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "ITA"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

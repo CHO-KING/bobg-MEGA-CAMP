@@ -1,0 +1,56 @@
+characters={
+	SAF_graham_milne={
+		name=SAF_graham_milne
+		portraits={
+			army={
+				large="GFX_portrait_ENG_george_giffard"
+			}
+			army={
+				small="GFX_portrait_ENG_george_giffard"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	SAF_martin_de_robeck={
+		name=SAF_martin_de_robeck
+		portraits={
+			navy={
+				large="GFX_Portrait_USA_Generic_navy_2"
+			}
+			navy={
+				small="GFX_Portrait_USA_Generic_navy_2"
+			}
+		}
+		navy_leader={
+			skill=3
+			attack_skill=4
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=5
+			legacy_id=0
+		}
+	}
+
+	SAF_reginald_haig={
+		name=SAF_reginald_haig
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_Britain_Winston_Churchill.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

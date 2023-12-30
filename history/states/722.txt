@@ -1,0 +1,33 @@
+
+state={
+	id=722
+	name="STATE_722"
+
+	history={
+		owner = USA
+		victory_points = {
+			908 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			3906 = {
+				naval_base = 10
+			}
+			air_base = 6
+
+		}
+		add_core_of = USA
+		add_core_of = W98
+	}
+
+	provinces={
+		715 718 905 908 3710 3906 6732 6909 9832 9847 9850 11830 
+	}
+	manpower=2822288
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

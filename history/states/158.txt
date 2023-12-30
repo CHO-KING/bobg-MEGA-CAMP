@@ -1,0 +1,36 @@
+
+state={
+	id=158
+	name="STATE_158"
+	resources={
+		rubber=9.000
+	}
+
+	history={
+		owner = V50
+		victory_points = {
+			4211 15 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 0
+			4211 = {
+				naval_base = 4
+			}
+			air_base = 10
+
+		}
+		add_core_of = V50
+		add_core_of = W24
+	}
+
+	provinces={
+		4211 7308 7384 7396 7440 10194 12138 12415 
+	}
+	manpower=316732
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

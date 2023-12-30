@@ -1,0 +1,35 @@
+
+state={
+	id=518
+	name="STATE_518"
+
+	history={
+		owner = POL
+		victory_points = {
+			6332 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			348 = {
+				naval_base = 1
+			}
+			air_base = 10
+
+		}
+		add_core_of = V39
+		add_core_of = W26
+		add_claim_by = LIT
+		add_claim_by = POL
+	}
+
+	provinces={
+		266 281 348 395 3288 3384 6332 6375 9327 9346 9372 9398 11245 11265 11386 
+	}
+	manpower=3698120
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

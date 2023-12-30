@@ -1,0 +1,16 @@
+characters={
+	V27_king_simeon={
+		name=V27_king_simeon
+		portraits={
+			civilian={
+				large="gfx/leaders/YUG/Portrait_Yugoslavia_Peter_II.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

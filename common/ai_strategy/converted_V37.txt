@@ -1,0 +1,93 @@
+﻿converted_war_strategies_V37 = {
+	enable = {
+		tag = V37
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "HOL"
+		value = 1533
+	}
+	ai_strategy = {
+		type = conquer
+		id = "BAY"
+		value = 511
+	}
+	ai_strategy = {
+		type = conquer
+		id = "FRA"
+		value = 365
+	}
+	ai_strategy = {
+		type = conquer
+		id = "RAJ"
+		value = 223
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SCA"
+		value = 219
+	}
+	ai_strategy = {
+		type = conquer
+		id = "POL"
+		value = 146
+	}
+}
+
+converted_diplo_strategies_V37 = {
+	enable = {
+		tag = V37
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "RAJ"
+		value = 284
+	}
+	ai_strategy = {
+		type = contain
+		id = "SIK"
+		value = 8
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "RAJ"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "HOL"
+		value = 153
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "BAY"
+		value = 97
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "FRA"
+		value = 70
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SCA"
+		value = 42
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "POL"
+		value = 28
+	}
+	ai_strategy = {
+		type = alliance
+		id = "PER"
+		value = 58
+	}
+}

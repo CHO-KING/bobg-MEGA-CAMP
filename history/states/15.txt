@@ -1,0 +1,29 @@
+
+state={
+	id=15
+	name="STATE_15"
+
+	history={
+		owner = BAY
+		victory_points = {
+			11560 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = BAY
+	}
+
+	provinces={
+		563 3558 11531 11547 11560 
+	}
+	manpower=1712900
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

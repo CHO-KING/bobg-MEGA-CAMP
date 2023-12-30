@@ -1,0 +1,29 @@
+
+state={
+	id=584
+	name="STATE_584"
+
+	history={
+		owner = SOV
+		victory_points = {
+			8042 10 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = SIK
+	}
+
+	provinces={
+		1703 1766 1943 1970 2015 2074 4682 4828 4973 5016 5042 5087 7273 7790 7949 8042 8086 8112 10315 10821 10885 10911 12119 12864 
+	}
+	manpower=938128
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

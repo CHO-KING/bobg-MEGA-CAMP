@@ -1,0 +1,29 @@
+
+state={
+	id=442
+	name="STATE_442"
+
+	history={
+		owner = W01
+		victory_points = {
+			7256 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = W01
+	}
+
+	provinces={
+		1893 2030 2091 4041 4141 4431 5048 6999 7256 7948 10144 10304 10822 11865 12274 12767 
+	}
+	manpower=20808120
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

@@ -1,0 +1,43 @@
+
+state={
+	id=180
+	name="STATE_180"
+	resources={
+		steel=6.000
+	}
+
+	history={
+		owner = V51
+		victory_points = {
+			7169 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 6
+			arms_factory = 0
+			4118 = {
+				naval_base = 6
+			}
+			air_base = 10
+
+		}
+		add_core_of = JAP
+		add_core_of = V40
+		add_core_of = V51
+		add_core_of = W29
+		add_core_of = W32
+		add_core_of = W40
+		add_core_of = X04
+		add_core_of = X53
+		add_claim_by = X67
+	}
+
+	provinces={
+		1024 1063 1165 3848 4067 4118 4122 4153 6870 6873 6994 7169 9807 9859 9865 11847 12056 
+	}
+	manpower=6912552
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

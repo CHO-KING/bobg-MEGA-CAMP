@@ -1,0 +1,31 @@
+
+state={
+	id=665
+	name="STATE_665"
+
+	history={
+		owner = W38
+		victory_points = {
+			5023 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			5023 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+	}
+
+	provinces={
+		5023 
+	}
+	manpower=264
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

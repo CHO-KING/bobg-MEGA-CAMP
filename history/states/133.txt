@@ -1,0 +1,30 @@
+
+state={
+	id=133
+	name="STATE_133"
+
+	history={
+		owner = EGY
+		victory_points = {
+			12727 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = EGY
+		add_claim_by = OMA
+	}
+
+	provinces={
+		5081 5093 7995 8004 8030 8060 10870 12727 12768 12813 12870 
+	}
+	manpower=321124
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

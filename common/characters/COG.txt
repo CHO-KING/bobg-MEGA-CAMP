@@ -1,0 +1,56 @@
+characters={
+	COG_graham_hope={
+		name=COG_graham_hope
+		portraits={
+			army={
+				large="GFX_Mittelafrika_Karl_Atanga"
+			}
+			army={
+				small="GFX_Mittelafrika_Karl_Atanga"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	COG_ferdinand_french={
+		name=COG_ferdinand_french
+		portraits={
+			navy={
+				large="GFX_Portrait_Africa_Generic_navy_3"
+			}
+			navy={
+				small="GFX_Portrait_Africa_Generic_navy_3"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=2
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	COG_nteve_nimi={
+		name=COG_nteve_nimi
+		portraits={
+			civilian={
+				large="gfx/leaders/LIB/Portrait_LIB_edwin_barclay.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,73 @@
+
+state={
+	id=419
+	name="STATE_419"
+
+	history={
+		owner = W01
+		victory_points = {
+			11771 10 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 0
+			964 = {
+				naval_base = 1
+			}
+			air_base = 5
+
+		}
+		add_core_of = MAN
+		add_core_of = W01
+		add_core_of = X67
+		add_core_of = X97
+		JAP = {
+			set_province_controller = 800
+			set_province_controller = 861
+			set_province_controller = 887
+			set_province_controller = 916
+			set_province_controller = 927
+			set_province_controller = 945
+			set_province_controller = 946
+			set_province_controller = 1567
+			set_province_controller = 3888
+			set_province_controller = 3913
+			set_province_controller = 3929
+			set_province_controller = 3932
+			set_province_controller = 3949
+			set_province_controller = 6905
+			set_province_controller = 6947
+			set_province_controller = 7523
+			set_province_controller = 7591
+			set_province_controller = 7652
+			set_province_controller = 7663
+			set_province_controller = 9759
+			set_province_controller = 9782
+			set_province_controller = 9803
+			set_province_controller = 9841
+			set_province_controller = 9848
+			set_province_controller = 9866
+			set_province_controller = 9883
+			set_province_controller = 9913
+			set_province_controller = 10433
+			set_province_controller = 10503
+			set_province_controller = 11744
+			set_province_controller = 11771
+			set_province_controller = 11781
+			set_province_controller = 11823
+			set_province_controller = 11850
+			set_province_controller = 11864
+			set_province_controller = 12412
+		}
+	}
+
+	provinces={
+		800 836 846 861 887 892 916 927 945 946 964 987 1567 3783 3839 3849 3888 3895 3913 3929 3932 3934 3949 3970 4572 6804 6837 6851 6860 6868 6893 6905 6910 6918 6947 6951 6981 7523 7591 7652 7663 9759 9781 9782 9788 9803 9835 9841 9848 9854 9866 9883 9885 9913 10433 10503 11744 11764 11771 11781 11808 11815 11823 11850 11864 11886 12412 
+	}
+	manpower=2699480
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

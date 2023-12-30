@@ -1,0 +1,32 @@
+
+state={
+	id=437
+	name="STATE_437"
+
+	history={
+		owner = W01
+		victory_points = {
+			10834 15 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = V13
+		add_core_of = V38
+		add_core_of = W01
+		add_core_of = X74
+	}
+
+	provinces={
+		2053 2099 4536 7270 7997 10490 10750 10796 10834 10865 11448 12815 12846 12890 
+	}
+	manpower=1400512
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

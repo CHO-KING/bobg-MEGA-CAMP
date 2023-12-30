@@ -1,0 +1,76 @@
+characters={
+	NZL_frederick_tennyson={
+		name=NZL_frederick_tennyson
+		portraits={
+			army={
+				large="GFX_portrait_ENG_jock_campbell"
+			}
+			army={
+				small="GFX_portrait_ENG_jock_campbell"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	NZL_thomas_thesinger={
+		name=NZL_thomas_thesinger
+		portraits={
+			army={
+				large="GFX_Portrait_Britain_Generic_land_2"
+			}
+			army={
+				small="GFX_Portrait_Britain_Generic_land_2"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	NZL_thomas_armstrong={
+		name=NZL_thomas_armstrong
+		portraits={
+			army={
+				large="GFX_USA_gen_omar_bradley"
+			}
+			army={
+				small="GFX_USA_gen_omar_bradley"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=5
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	NZL_william_fisher={
+		name=NZL_william_fisher
+		portraits={
+			civilian={
+				large="gfx/leaders/DEN/Portrait_Denmark_Erik_Scavenius.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

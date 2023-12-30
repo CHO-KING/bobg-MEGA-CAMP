@@ -1,0 +1,27 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 7433
+		task_force = {
+			name = "2nd Fleet"
+			location = 7433
+			ship = { name = "Frontenac" definition = destroyer start_experience_factor = 0.05 equipment = { ship_hull_light_1 = { amount = 1 owner = QUE version_name = "Early Destroyer" } } }
+			ship = { name = "Vaudreuil" definition = destroyer start_experience_factor = 0.04545 equipment = { ship_hull_light_1 = { amount = 1 owner = QUE version_name = "Early Destroyer" } } }
+			ship = { name = "Saint-Laurent" definition = destroyer start_experience_factor = 0.05 equipment = { ship_hull_light_1 = { amount = 1 owner = QUE version_name = "Early Destroyer" } } }
+			ship = { name = "Cartier" definition = destroyer start_experience_factor = 0.05 equipment = { ship_hull_light_1 = { amount = 1 owner = QUE version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "QUE"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

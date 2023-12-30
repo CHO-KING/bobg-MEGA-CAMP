@@ -1,0 +1,39 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 7622
+		task_force = {
+			name = "2nd Fleet"
+			location = 7622
+			ship = { name = "Matanzas" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CUB } } }
+			ship = { name = "Pilar del Río" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CUB } } }
+			ship = { name = "Tarántula" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CUB } } }
+			ship = { name = "Veinticuatro de Febrero" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CUB } } }
+			ship = { name = "Agramonte" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CUB } } }
+			ship = { name = "Araña" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CUB } } }
+			ship = { name = "Diez de Octubre" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CUB } } }
+			ship = { name = "Guaimaro" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CUB } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "CUB"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "CUB"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

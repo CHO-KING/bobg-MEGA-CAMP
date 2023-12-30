@@ -1,0 +1,30 @@
+
+state={
+	id=30
+	name="STATE_30"
+
+	history={
+		owner = BAY
+		victory_points = {
+			9627 10 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = SLV
+		add_claim_by = BAY
+	}
+
+	provinces={
+		596 665 3631 3654 6650 6672 9596 9627 
+	}
+	manpower=936268
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

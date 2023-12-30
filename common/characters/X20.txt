@@ -1,0 +1,56 @@
+characters={
+	X20_levi_lilipaly={
+		name=X20_levi_lilipaly
+		portraits={
+			army={
+				large="GFX_Portrait_Asia_Generic_land_3"
+			}
+			army={
+				small="GFX_Portrait_Asia_Generic_land_3"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=5
+			legacy_id=0
+		}
+	}
+
+	X20_mohammad_palyama={
+		name=X20_mohammad_palyama
+		portraits={
+			navy={
+				large="GFX_Asia_Generic_navy_new_1"
+			}
+			navy={
+				small="GFX_Asia_Generic_navy_new_1"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=5
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	X20_king_shahab_ii={
+		name=X20_king_shahab_ii
+		portraits={
+			civilian={
+				large="GFX_Sarawak_Ahmad_Tajuddin"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

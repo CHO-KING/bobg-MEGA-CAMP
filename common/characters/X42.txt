@@ -1,0 +1,76 @@
+characters={
+	X42_epameinontas_othonaios={
+		name=X42_epameinontas_othonaios
+		portraits={
+			army={
+				large="GFX_Portrait_Europe_Generic_land_2"
+			}
+			army={
+				small="GFX_Portrait_Europe_Generic_land_2"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=5
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X42_kyriakos_kondylis={
+		name=X42_kyriakos_kondylis
+		portraits={
+			army={
+				large="GFX_GRE_Manolis_Mantakas"
+			}
+			army={
+				small="GFX_GRE_Manolis_Mantakas"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=5
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X42_aristidis_tis_elladas={
+		name=X42_aristidis_tis_elladas
+		portraits={
+			navy={
+				large="GFX_portrait_ITA_inigo_campioni"
+			}
+			navy={
+				small="GFX_portrait_ITA_inigo_campioni"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=3
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	X42_aristidis_papoulas={
+		name=X42_aristidis_papoulas
+		portraits={
+			civilian={
+				large="GFX_Papal_State_Angelo_Cerica"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

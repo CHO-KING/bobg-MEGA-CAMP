@@ -1,0 +1,32 @@
+
+state={
+	id=122
+	name="STATE_122"
+	resources={
+		tungsten=2.000
+	}
+
+	history={
+		owner = X48
+		victory_points = {
+			6779 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X48
+	}
+
+	provinces={
+		736 3481 3498 3769 3800 4695 4739 6779 9669 10552 10611 10656 11440 12593 12663 
+	}
+	manpower=17972
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

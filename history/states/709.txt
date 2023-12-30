@@ -1,0 +1,30 @@
+
+state={
+	id=709
+	name="STATE_709"
+
+	history={
+		owner = USA
+		victory_points = {
+			12568 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 6
+
+		}
+		add_core_of = USA
+		add_core_of = X26
+	}
+
+	provinces={
+		1445 1582 4402 4452 4988 6696 6974 7547 9727 10586 10727 12568 12637 12709 
+	}
+	manpower=1961784
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

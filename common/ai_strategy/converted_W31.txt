@@ -1,0 +1,68 @@
+﻿converted_war_strategies_W31 = {
+	enable = {
+		tag = W31
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "RAJ"
+		value = 4785
+	}
+}
+
+converted_diplo_strategies_W31 = {
+	enable = {
+		tag = W31
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 86
+	}
+	ai_strategy = {
+		type = contain
+		id = "CAM"
+		value = 62
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "RAJ"
+		value = 267
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X13"
+		value = 25
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X72"
+		value = 25
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "W27"
+		value = 25
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X90"
+		value = 22
+	}
+	ai_strategy = {
+		type = alliance
+		id = "VIN"
+		value = 3
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X98"
+		value = 63
+	}
+}

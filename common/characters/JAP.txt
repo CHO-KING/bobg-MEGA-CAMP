@@ -1,0 +1,76 @@
+characters={
+	JAP_kamimura_shoin={
+		name=JAP_kamimura_shoin
+		portraits={
+			army={
+				large="GFX_portrait_JAP_hitoshi_imamura"
+			}
+			army={
+				small="GFX_portrait_JAP_hitoshi_imamura"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=5
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	JAP_asai_tomasaburo={
+		name=JAP_asai_tomasaburo
+		portraits={
+			army={
+				large="GFX_portrait_JAP_akira_muto"
+			}
+			army={
+				small="GFX_portrait_JAP_akira_muto"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	JAP_kamio_hiroshi={
+		name=JAP_kamio_hiroshi
+		portraits={
+			navy={
+				large="GFX_portrait_asia_generic_navy_4"
+			}
+			navy={
+				small="GFX_portrait_asia_generic_navy_4"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=3
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	JAP_matsuki_uryu={
+		name=JAP_matsuki_uryu
+		portraits={
+			civilian={
+				large="gfx/leaders/JAP/Portrait_Japan_Hirohito.dds"
+			}
+		}
+		country_leader={
+			ideology=prussian_const
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

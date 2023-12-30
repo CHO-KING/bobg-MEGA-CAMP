@@ -1,0 +1,33 @@
+
+state={
+	id=353
+	name="STATE_353"
+
+	history={
+		owner = V60
+		victory_points = {
+			1751 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			1751 = {
+				naval_base = 1
+			}
+			air_base = 6
+
+		}
+		add_core_of = MOR
+		add_core_of = V60
+	}
+
+	provinces={
+		1751 
+	}
+	manpower=345376
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

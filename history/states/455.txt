@@ -1,0 +1,33 @@
+
+state={
+	id=455
+	name="STATE_455"
+
+	history={
+		owner = HOL
+		victory_points = {
+			6496 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			480 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+		add_core_of = HOL
+		add_claim_by = FLA
+	}
+
+	provinces={
+		480 3262 6496 6500 9431 11562 
+	}
+	manpower=1660252
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=453
+	name="STATE_453"
+
+	history={
+		owner = W05
+		victory_points = {
+			4425 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 8
+			arms_factory = 3
+			air_base = 8
+
+		}
+		add_core_of = W05
+		add_core_of = X80
+	}
+
+	provinces={
+		1082 4425 10920 12464 
+	}
+	manpower=382356
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

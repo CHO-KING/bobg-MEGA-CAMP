@@ -1,0 +1,33 @@
+
+state={
+	id=52
+	name="STATE_52"
+
+	history={
+		owner = BRA
+		victory_points = {
+			12853 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			12853 = {
+				naval_base = 6
+			}
+			air_base = 0
+
+		}
+		add_core_of = BRA
+	}
+
+	provinces={
+		1979 2035 2214 4980 5008 8172 10874 10956 12853 12999 
+	}
+	manpower=1502920
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

@@ -1,0 +1,56 @@
+characters={
+	TAN_hesehn_zhanshan={
+		name=TAN_hesehn_zhanshan
+		portraits={
+			army={
+				large="GFX_Portrait_Asia_Generic_land_1"
+			}
+			army={
+				small="GFX_Portrait_Asia_Generic_land_1"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=1
+			planning_skill=4
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	TAN_hesehn_linge={
+		name=TAN_hesehn_linge
+		portraits={
+			army={
+				large="GFX_FNG_Wan_Fulin"
+			}
+			army={
+				small="GFX_FNG_Wan_Fulin"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	TAN_songgotu_shangzhi={
+		name=TAN_songgotu_shangzhi
+		portraits={
+			civilian={
+				large="gfx/leaders/MAN/portrait_man_aisin_gioro_xiqia.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=24
+	name="STATE_24"
+
+	history={
+		owner = BAY
+		victory_points = {
+			6440 10 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = W82
+		add_core_of = W87
+		add_core_of = X47
+		add_claim_by = BAY
+	}
+
+	provinces={
+		424 469 543 3418 3585 5283 6418 6440 6470 7857 9414 9555 11401 11414 11432 
+	}
+	manpower=2644076
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

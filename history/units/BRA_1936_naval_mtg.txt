@@ -1,0 +1,27 @@
+units = {
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 5220
+		task_force = {
+			name = "3rd Fleet"
+			location = 5220
+			ship = { name = "1st São Luís Battleship" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BRA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Easter Island Battleship" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BRA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Curiapo Battleship" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BRA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "República" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BRA version_name = "Early Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "BRA"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

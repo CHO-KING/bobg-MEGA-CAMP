@@ -1,0 +1,37 @@
+
+state={
+	id=146
+	name="STATE_146"
+	resources={
+		aluminium=4.000
+	}
+
+	history={
+		owner = ENG
+		victory_points = {
+			12674 10 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 0
+			12674 = {
+				naval_base = 10
+			}
+			air_base = 5
+
+		}
+		add_core_of = ENG
+		add_core_of = ICE
+		add_core_of = SCA
+	}
+
+	provinces={
+		4861 12674 12689 
+	}
+	manpower=144228
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

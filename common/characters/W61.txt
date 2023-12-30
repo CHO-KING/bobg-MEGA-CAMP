@@ -1,0 +1,36 @@
+characters={
+	W61_nasiridin_beg={
+		name=W61_nasiridin_beg
+		portraits={
+			army={
+				large="GFX_Portrait_Arabia_Generic_land_3"
+			}
+			army={
+				small="GFX_Portrait_Arabia_Generic_land_3"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	W61_king_bonyak_ii={
+		name=W61_king_bonyak_ii
+		portraits={
+			civilian={
+				large="GFX_Ottoman_Abdulmecid"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

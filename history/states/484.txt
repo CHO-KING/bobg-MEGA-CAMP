@@ -1,0 +1,35 @@
+
+state={
+	id=484
+	name="STATE_484"
+
+	history={
+		owner = PER
+		victory_points = {
+			8085 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			2089 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+		add_core_of = IRQ
+		add_core_of = V18
+		add_core_of = W63
+		add_claim_by = PER
+	}
+
+	provinces={
+		78 2004 2089 7977 7994 8001 8085 10744 10876 12726 12839 12879 
+	}
+	manpower=895100
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

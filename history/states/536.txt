@@ -1,0 +1,29 @@
+
+state={
+	id=536
+	name="STATE_536"
+
+	history={
+		owner = QUE
+		victory_points = {
+			4445 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 2
+			air_base = 2
+
+		}
+		add_core_of = QUE
+	}
+
+	provinces={
+		4445 7629 9675 
+	}
+	manpower=937932
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

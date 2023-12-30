@@ -1,0 +1,18 @@
+﻿converted_war_strategies_SAX = {
+	enable = {
+		tag = SAX
+		always = no
+	}
+	
+}
+
+converted_diplo_strategies_SAX = {
+	enable = {
+		tag = SAX
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+}

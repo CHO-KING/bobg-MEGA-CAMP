@@ -1,0 +1,36 @@
+characters={
+	W42_hermano_mabini={
+		name=W42_hermano_mabini
+		portraits={
+			army={
+				large="GFX_Indonesia_Rachmat"
+			}
+			army={
+				small="GFX_Indonesia_Rachmat"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	W42_apolinario_rizal={
+		name=W42_apolinario_rizal
+		portraits={
+			civilian={
+				large="gfx/leaders/PHI/Portrait_Philippines_Manuel_Luis_Quezon.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

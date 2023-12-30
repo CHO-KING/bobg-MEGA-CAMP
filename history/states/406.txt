@@ -1,0 +1,36 @@
+
+state={
+	id=406
+	name="STATE_406"
+	resources={
+		rubber=1.000
+	}
+
+	history={
+		owner = X98
+		victory_points = {
+			10263 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 6
+			arms_factory = 3
+			dockyard = 2
+			1589 = {
+				naval_base = 1
+			}
+			air_base = 8
+
+		}
+		add_core_of = X98
+	}
+
+	provinces={
+		1561 1589 4308 4349 7598 10263 12330 
+	}
+	manpower=243516
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

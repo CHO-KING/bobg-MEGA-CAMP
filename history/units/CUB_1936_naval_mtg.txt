@@ -1,0 +1,31 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 7622
+		task_force = {
+			name = "2nd Fleet"
+			location = 7622
+			ship = { name = "Matanzas" definition = destroyer start_experience_factor = 0.05 equipment = { ship_hull_light_1 = { amount = 1 owner = CUB version_name = "Early Destroyer" } } }
+			ship = { name = "Pilar del Río" definition = destroyer start_experience_factor = 0.05 equipment = { ship_hull_light_1 = { amount = 1 owner = CUB version_name = "Early Destroyer" } } }
+			ship = { name = "Tarántula" definition = destroyer start_experience_factor = 0.05 equipment = { ship_hull_light_1 = { amount = 1 owner = CUB version_name = "Early Destroyer" } } }
+			ship = { name = "Veinticuatro de Febrero" definition = destroyer start_experience_factor = 0.05 equipment = { ship_hull_light_1 = { amount = 1 owner = CUB version_name = "Early Destroyer" } } }
+			ship = { name = "Agramonte" definition = destroyer start_experience_factor = 0.05 equipment = { ship_hull_light_1 = { amount = 1 owner = CUB version_name = "Early Destroyer" } } }
+			ship = { name = "Araña" definition = destroyer start_experience_factor = 0.05 equipment = { ship_hull_light_1 = { amount = 1 owner = CUB version_name = "Early Destroyer" } } }
+			ship = { name = "Diez de Octubre" definition = destroyer start_experience_factor = 0.05 equipment = { ship_hull_light_1 = { amount = 1 owner = CUB version_name = "Early Destroyer" } } }
+			ship = { name = "Guaimaro" definition = destroyer start_experience_factor = 0.05 equipment = { ship_hull_light_1 = { amount = 1 owner = CUB version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "CUB"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

@@ -1,0 +1,73 @@
+﻿converted_war_strategies_W97 = {
+	enable = {
+		tag = W97
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "X49"
+		value = 270
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X50"
+		value = 165
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ENG"
+		value = 135
+	}
+	ai_strategy = {
+		type = conquer
+		id = "NZL"
+		value = 45
+	}
+}
+
+converted_diplo_strategies_W97 = {
+	enable = {
+		tag = W97
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "NZL"
+		value = 276
+	}
+	ai_strategy = {
+		type = contain
+		id = "ENG"
+		value = 197
+	}
+	ai_strategy = {
+		type = contain
+		id = "X49"
+		value = 168
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 400
+	}
+	ai_strategy = {
+		type = protect
+		id = "NZL"
+		value = 240
+	}
+	ai_strategy = {
+		type = protect
+		id = "X49"
+		value = 40
+	}
+}

@@ -1,0 +1,68 @@
+﻿converted_war_strategies_W44 = {
+	enable = {
+		tag = W44
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "SAF"
+		value = 73
+	}
+}
+
+converted_diplo_strategies_W44 = {
+	enable = {
+		tag = W44
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "ENG"
+		value = 281
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 233
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "V01"
+		value = 18
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ETH"
+		value = 10
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "W74"
+		value = 6
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SUD"
+		value = 5
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "W00"
+		value = 65
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "W48"
+		value = 65
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "W04"
+		value = 50
+	}
+}

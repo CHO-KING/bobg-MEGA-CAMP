@@ -1,0 +1,33 @@
+
+state={
+	id=91
+	name="STATE_91"
+
+	history={
+		owner = X24
+		victory_points = {
+			949 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			9783 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_core_of = V27
+		add_claim_by = X24
+	}
+
+	provinces={
+		649 793 935 949 965 3796 3819 3908 3952 3971 6842 9610 9612 9769 9771 9783 11754 
+	}
+	manpower=2599708
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

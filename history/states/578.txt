@@ -1,0 +1,32 @@
+
+state={
+	id=578
+	name="STATE_578"
+
+	history={
+		owner = SOV
+		victory_points = {
+			4724 15 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = V13
+		add_core_of = V33
+		add_core_of = W61
+		add_claim_by = SOV
+	}
+
+	provinces={
+		1676 1697 1702 1816 1837 1850 1876 1877 4680 4724 4782 4853 7703 7731 7744 7804 7815 7819 7876 10570 10580 10597 10627 10639 10646 10712 12523 12610 12621 12625 12666 12691 
+	}
+	manpower=459664
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

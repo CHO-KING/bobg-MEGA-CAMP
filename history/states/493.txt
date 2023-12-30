@@ -1,0 +1,33 @@
+
+state={
+	id=493
+	name="STATE_493"
+
+	history={
+		owner = PER
+		victory_points = {
+			7982 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			1889 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+		add_core_of = PER
+	}
+
+	provinces={
+		1889 1986 2039 2070 4891 7982 10782 10913 11249 12780 12809 12863 12895 13082 
+	}
+	manpower=1197400
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

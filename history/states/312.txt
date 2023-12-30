@@ -1,0 +1,35 @@
+
+state={
+	id=312
+	name="STATE_312"
+	resources={
+		rubber=52.000
+	}
+
+	history={
+		owner = RAJ
+		victory_points = {
+			7344 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			10201 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_core_of = RAJ
+	}
+
+	provinces={
+		1213 4219 7260 7344 10201 10229 10287 12258 
+	}
+	manpower=3404652
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

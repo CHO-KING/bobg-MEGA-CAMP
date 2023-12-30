@@ -1,0 +1,76 @@
+characters={
+	OMA_faruk_jabrid={
+		name=OMA_faruk_jabrid
+		portraits={
+			army={
+				large="GFX_SYR_Sami_Al_Hinawi"
+			}
+			army={
+				small="GFX_SYR_Sami_Al_Hinawi"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	OMA_khaireddin_nabhani={
+		name=OMA_khaireddin_nabhani
+		portraits={
+			army={
+				large="GFX_Portrait_Arabia_Generic_land_3"
+			}
+			army={
+				small="GFX_Portrait_Arabia_Generic_land_3"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	OMA_bihar_saud={
+		name=OMA_bihar_saud
+		portraits={
+			army={
+				large="GFX_Portrait_Arabia_Generic_land_1"
+			}
+			army={
+				small="GFX_Portrait_Arabia_Generic_land_1"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=1
+			planning_skill=5
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	OMA_king_ali={
+		name=OMA_king_ali
+		portraits={
+			civilian={
+				large="GFX_KUR_Mahmud_Barzanji"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

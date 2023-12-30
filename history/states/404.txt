@@ -1,0 +1,29 @@
+
+state={
+	id=404
+	name="STATE_404"
+
+	history={
+		owner = X90
+		victory_points = {
+			12360 4 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+			arms_factory = 2
+			air_base = 2
+
+		}
+		add_core_of = X90
+	}
+
+	provinces={
+		1357 1535 1548 4511 7516 7601 10384 10425 12360 12373 12402 12417 12431 
+	}
+	manpower=892268
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

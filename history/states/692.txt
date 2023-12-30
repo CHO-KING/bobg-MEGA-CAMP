@@ -1,0 +1,33 @@
+
+state={
+	id=692
+	name="STATE_692"
+
+	history={
+		owner = W46
+		victory_points = {
+			10265 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 6
+			arms_factory = 3
+			dockyard = 2
+			1221 = {
+				naval_base = 1
+			}
+			air_base = 8
+
+		}
+		add_core_of = W46
+	}
+
+	provinces={
+		1221 1288 1415 4288 7275 7323 7351 10165 10236 10265 10272 10280 12236 
+	}
+	manpower=1250472
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

@@ -1,0 +1,36 @@
+
+state={
+	id=125
+	name="STATE_125"
+	resources={
+		tungsten=1.000
+	}
+
+	history={
+		owner = X49
+		victory_points = {
+			1472 30 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+			arms_factory = 2
+			dockyard = 2
+			7566 = {
+				naval_base = 2
+			}
+			air_base = 8
+
+		}
+		add_core_of = X49
+	}
+
+	provinces={
+		1472 1557 1570 2116 2221 4517 4560 4632 5198 5227 7566 7610 7666 8230 10460 10487 10941 11006 12367 12382 12411 12424 12949 
+	}
+	manpower=21589
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

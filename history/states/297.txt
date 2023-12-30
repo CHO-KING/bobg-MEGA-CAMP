@@ -1,0 +1,30 @@
+
+state={
+	id=297
+	name="STATE_297"
+
+	history={
+		owner = RAJ
+		victory_points = {
+			9084 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = W31
+		add_claim_by = V36
+	}
+
+	provinces={
+		1107 1129 2002 2076 4979 7106 7903 8007 8022 8106 9084 10066 10139 10173 10729 10772 10843 10887 10898 12005 12708 12792 12822 
+	}
+	manpower=10335140
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

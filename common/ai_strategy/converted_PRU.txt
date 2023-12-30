@@ -1,0 +1,63 @@
+﻿converted_war_strategies_PRU = {
+	enable = {
+		tag = PRU
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "W38"
+		value = 609
+	}
+	ai_strategy = {
+		type = conquer
+		id = "BRA"
+		value = 358
+	}
+}
+
+converted_diplo_strategies_PRU = {
+	enable = {
+		tag = PRU
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "BRA"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "W38"
+		value = 224
+	}
+	ai_strategy = {
+		type = contain
+		id = "SPB"
+		value = 70
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "W38"
+		value = 343
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "BRA"
+		value = 340
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SPB"
+		value = 57
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 7
+	}
+}

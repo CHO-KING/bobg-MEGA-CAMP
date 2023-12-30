@@ -1,0 +1,36 @@
+
+state={
+	id=413
+	name="STATE_413"
+	resources={
+		rubber=15.000
+		tungsten=5.000
+	}
+
+	history={
+		owner = MAL
+		victory_points = {
+			12113 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			12113 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_core_of = MAL
+	}
+
+	provinces={
+		12113 
+	}
+	manpower=55092
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

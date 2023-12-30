@@ -1,0 +1,88 @@
+﻿converted_war_strategies_X33 = {
+	enable = {
+		tag = X33
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "SOV"
+		value = 1178
+	}
+}
+
+converted_diplo_strategies_X33 = {
+	enable = {
+		tag = X33
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "PER"
+		value = 51
+	}
+	ai_strategy = {
+		type = contain
+		id = "SCA"
+		value = 43
+	}
+	ai_strategy = {
+		type = contain
+		id = "V16"
+		value = 0
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SOV"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "PER"
+		value = 52
+	}
+	ai_strategy = {
+		type = alliance
+		id = "RAJ"
+		value = 151
+	}
+	ai_strategy = {
+		type = alliance
+		id = "POL"
+		value = 99
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X24"
+		value = 91
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SCA"
+		value = 7
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X31"
+		value = 57
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "CKK"
+		value = 51
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "V16"
+		value = 34
+	}
+}

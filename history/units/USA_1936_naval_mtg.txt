@@ -1,0 +1,104 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 1562
+		task_force = {
+			name = "1st Fleet"
+			location = 1562
+			ship = { name = "1st Savannah Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "1st Greenville Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "1st Norfolk Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "1st Annapolis Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "1st Trenton Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "1st New Bedford Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "1st Bangor Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 788
+		task_force = {
+			name = "2nd Fleet"
+			location = 788
+			ship = { name = "Oregon" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Iowa" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Kearsarge" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Maine" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Indiana" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Massachusetts" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Texas" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Galveston" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Denver" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Chattanooga" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Tacoma" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Cleveland" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Milwaukee" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "1st Tampa Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "1st Portland Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "1st San Diego Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "1st San Antonio Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "1st New Orleans Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "1st Biloxi Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "1st Mobile Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "2nd Tampa Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Newark" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Baltimore" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Charleston" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Philadelphia" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "San Francisco" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Olympia" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Raleigh" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Detroit" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Cincinnati" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Montgomery" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Marblehead" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Columbia" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Minneapolis" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Des Moines" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 3957
+		task_force = {
+			name = "3rd Fleet"
+			location = 3957
+			ship = { name = "Illinois" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Alabama" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Kentucky" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Wisconsin" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Missouri" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Ohio" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Virginia" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Nebraska" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Georgia" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "New Jersey" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Seattle Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "2nd Portland Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "2nd San Diego Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "2nd San Antonio Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "5th Fleet"
+		naval_base = 7552
+		task_force = {
+			name = "5th Fleet"
+			location = 7552
+			ship = { name = "2nd New Orleans Cruiser" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "USA"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

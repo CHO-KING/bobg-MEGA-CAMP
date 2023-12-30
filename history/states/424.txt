@@ -1,0 +1,33 @@
+
+state={
+	id=424
+	name="STATE_424"
+
+	history={
+		owner = W01
+		victory_points = {
+			7137 10 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 0
+			1018 = {
+				naval_base = 1
+			}
+			air_base = 5
+
+		}
+		add_core_of = X29
+		add_claim_by = W01
+	}
+
+	provinces={
+		1018 1023 1469 1597 1625 4023 4028 4077 4085 4121 4134 4152 4177 4628 4656 7044 7095 7128 7137 7168 7192 7210 7650 10004 10039 10050 10121 10404 10431 10459 11926 11983 12023 12407 12436 
+	}
+	manpower=10417780
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

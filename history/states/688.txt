@@ -1,0 +1,31 @@
+
+state={
+	id=688
+	name="STATE_688"
+
+	history={
+		owner = SPB
+		victory_points = {
+			12349 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			12349 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		10981 11005 12349 
+	}
+	manpower=26060
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

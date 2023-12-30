@@ -1,0 +1,36 @@
+characters={
+	TOG_robert_haig={
+		name=TOG_robert_haig
+		portraits={
+			army={
+				large="GFX_USA_gen_Clarence_Huebner"
+			}
+			army={
+				small="GFX_USA_gen_Clarence_Huebner"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	TOG_russell_seymour={
+		name=TOG_russell_seymour
+		portraits={
+			civilian={
+				large="GFX_Canada_King_Edward_VIII"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

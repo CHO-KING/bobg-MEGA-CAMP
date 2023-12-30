@@ -1,0 +1,33 @@
+
+state={
+	id=666
+	name="STATE_666"
+
+	history={
+		owner = W38
+		victory_points = {
+			12798 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			8047 = {
+				naval_base = 8
+			}
+			air_base = 6
+
+		}
+		add_core_of = W28
+		add_claim_by = X30
+	}
+
+	provinces={
+		5051 5120 8047 8075 8252 10888 11020 12798 
+	}
+	manpower=2302652
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

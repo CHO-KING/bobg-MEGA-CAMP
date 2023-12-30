@@ -1,0 +1,32 @@
+
+state={
+	id=583
+	name="STATE_583"
+
+	history={
+		owner = SOV
+		victory_points = {
+			12805 10 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			arms_factory = 0
+			air_base = 10
+
+		}
+		add_core_of = AFG
+		add_core_of = TAJ
+		add_core_of = V17
+		add_claim_by = V23
+	}
+
+	provinces={
+		1384 1675 1825 1919 2058 4316 4391 4467 4542 4768 4923 5062 7224 7706 8027 10187 10205 10408 10417 10660 11687 12218 12250 12370 12430 12511 12581 12583 12640 12805 
+	}
+	manpower=1641988
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

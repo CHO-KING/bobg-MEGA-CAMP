@@ -1,0 +1,78 @@
+﻿converted_war_strategies_SEN = {
+	enable = {
+		tag = SEN
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "ENG"
+		value = 3037
+	}
+	ai_strategy = {
+		type = conquer
+		id = "W97"
+		value = 78
+	}
+}
+
+converted_diplo_strategies_SEN = {
+	enable = {
+		tag = SEN
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "BRA"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 327
+	}
+	ai_strategy = {
+		type = contain
+		id = "ENG"
+		value = 158
+	}
+	ai_strategy = {
+		type = contain
+		id = "ITA"
+		value = 86
+	}
+	ai_strategy = {
+		type = contain
+		id = "TOG"
+		value = 4
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ITA"
+		value = 48
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ITA"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SCA"
+		value = 46
+	}
+	ai_strategy = {
+		type = protect
+		id = "TOG"
+		value = 53
+	}
+}

@@ -1,0 +1,36 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 962
+		task_force = {
+			name = "1st Fleet"
+			location = 962
+			ship = { name = "Almirante Valdés" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Alsedo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Audaz" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Bustamante" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPB } } }
+			ship = { name = "Cadarso" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPB } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "SPB"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "SPB"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

@@ -1,0 +1,56 @@
+characters={
+	W00_shwe_kaw={
+		name=W00_shwe_kaw
+		portraits={
+			army={
+				large="GFX_Portrait_Asia_Generic_land_2"
+			}
+			army={
+				small="GFX_Portrait_Asia_Generic_land_2"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	W00_hkam_pak={
+		name=W00_hkam_pak
+		portraits={
+			army={
+				large="GFX_portrait_asia_generic_land_6"
+			}
+			army={
+				small="GFX_portrait_asia_generic_land_6"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	W00_king_hpo={
+		name=W00_king_hpo
+		portraits={
+			civilian={
+				large="GFX_Siam_Rama_IX"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

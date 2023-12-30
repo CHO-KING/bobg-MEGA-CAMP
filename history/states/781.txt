@@ -1,0 +1,32 @@
+
+state={
+	id=781
+	name="STATE_781"
+
+	history={
+		owner = V67
+		victory_points = {
+			12600 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			3208 = {
+				naval_base = 0
+			}
+			air_base = 0
+
+		}
+		add_core_of = V67
+	}
+
+	provinces={
+		3208 4666 7364 10176 12147 12600 13196 
+	}
+	manpower=19420
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=10.0
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=103
+	name="STATE_103"
+
+	history={
+		owner = X24
+		victory_points = {
+			975 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			975 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+		add_core_of = X24
+	}
+
+	provinces={
+		933 960 975 3903 3935 3950 3965 6950 9761 9777 9915 11894 
+	}
+	manpower=613908
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}
