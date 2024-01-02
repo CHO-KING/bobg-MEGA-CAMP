@@ -3,9 +3,10 @@ state={
 	id=408
 	name="STATE_408"
 	resources={
-		rubber=152.000
+		rubber=12.000
 		steel=6.000
 		tungsten=56.000
+		aluminium=15
 	}
 
 	history={

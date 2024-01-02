@@ -2,6 +2,9 @@
 state={
 	id=729
 	name="STATE_729"
+	resources={
+		chromium=13.000
+	}
 
 	history={
 		owner = USA

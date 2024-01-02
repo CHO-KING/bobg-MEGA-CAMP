@@ -3,7 +3,7 @@ state={
 	id=311
 	name="STATE_311"
 	resources={
-		rubber=3.000
+		rubber=93.000
 		tungsten=2.000
 	}
 
@@ -14,8 +14,8 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 0
-			arms_factory = 0
+			industrial_complex = 3
+			arms_factory = 4
 			7391 = {
 				naval_base = 2
 			}

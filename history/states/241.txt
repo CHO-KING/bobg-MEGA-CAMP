@@ -10,7 +10,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 2
+			industrial_complex = 1
 			arms_factory = 0
 			1977 = {
 				naval_base = 2

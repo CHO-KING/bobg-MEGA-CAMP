@@ -2,6 +2,9 @@
 state={
 	id=574
 	name="STATE_574"
+	resources={
+		oil=113.000
+	}
 
 	history={
 		owner = SOV

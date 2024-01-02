@@ -2,6 +2,9 @@
 state={
 	id=619
 	name="STATE_619"
+	resources={
+		chromium=25.000
+	}
 
 	history={
 		owner = SCA

@@ -4,15 +4,14 @@ state={
 	name="STATE_695"
 
 	history={
-		owner = TOG
+		owner = ENG
 		victory_points = {
 			1951 15 
 		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 6
-			arms_factory = 3
-			dockyard = 2
+			infrastructure = 1
+			industrial_complex = 0
+			dockyard = 0
 			1951 = {
 				naval_base = 2
 			}
@@ -27,7 +26,7 @@ state={
 	}
 	manpower=354144
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=rural
 
 	local_supplies=10.0
 }

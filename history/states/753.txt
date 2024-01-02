@@ -2,6 +2,9 @@
 state={
 	id=753
 	name="STATE_753"
+	resources={
+		chromium=6.000
+	}
 
 	history={
 		owner = W73
@@ -9,10 +12,10 @@ state={
 			4914 15 
 		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 5
-			arms_factory = 2
-			air_base = 7
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 0
 
 		}
 		add_core_of = W73

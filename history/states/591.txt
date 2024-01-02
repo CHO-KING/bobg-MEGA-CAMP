@@ -2,6 +2,9 @@
 state={
 	id=591
 	name="STATE_591"
+	resources={
+		chromium=24.000
+	}
 
 	history={
 		owner = SOV
@@ -10,7 +13,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 2
+			industrial_complex = 1
 			arms_factory = 0
 			air_base = 10
 

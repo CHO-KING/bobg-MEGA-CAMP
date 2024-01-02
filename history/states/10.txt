@@ -4,6 +4,7 @@ state={
 	name="STATE_10"
 	resources={
 		rubber=2.000
+		oil=2
 	}
 
 	history={
@@ -12,14 +13,14 @@ state={
 			7415 15 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 6
-			arms_factory = 3
-			dockyard = 2
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 0
 			7415 = {
 				naval_base = 2
 			}
-			air_base = 8
+			air_base = 0
 
 		}
 		add_core_of = X16
@@ -32,7 +33,7 @@ state={
 	}
 	manpower=111848
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=rural
 
 	local_supplies=10.0
 }

@@ -2,6 +2,9 @@
 state={
 	id=419
 	name="STATE_419"
+	resources={
+		steel=2.000
+	}
 
 	history={
 		owner = W01

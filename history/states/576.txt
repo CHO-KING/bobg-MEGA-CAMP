@@ -2,6 +2,9 @@
 state={
 	id=576
 	name="STATE_576"
+	resources={
+		steel=13.000
+	}
 
 	history={
 		owner = SOV

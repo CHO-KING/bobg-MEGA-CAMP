@@ -2,6 +2,9 @@
 state={
 	id=381
 	name="STATE_381"
+	resources={
+		tungsten=42.000
+	}
 
 	history={
 		owner = JAP

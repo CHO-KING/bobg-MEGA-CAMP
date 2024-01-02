@@ -2,6 +2,9 @@
 state={
 	id=738
 	name="STATE_738"
+	resources={
+		oil=18.000
+	}
 
 	history={
 		owner = USA

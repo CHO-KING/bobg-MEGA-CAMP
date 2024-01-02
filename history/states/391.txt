@@ -2,6 +2,9 @@
 state={
 	id=391
 	name="STATE_391"
+	resources={
+		rubber=13.000
+	}
 
 	history={
 		owner = V63
@@ -10,8 +13,8 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 3
-			arms_factory = 2
+			industrial_complex = 1
+			arms_factory = 1
 			dockyard = 1
 			1291 = {
 				naval_base = 1

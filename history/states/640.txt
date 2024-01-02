@@ -2,6 +2,10 @@
 state={
 	id=640
 	name="STATE_640"
+	resources={
+		steel=3.000
+		chromium=23
+	}
 
 	history={
 		owner = SER

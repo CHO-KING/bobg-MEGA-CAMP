@@ -2,6 +2,10 @@
 state={
 	id=365
 	name="STATE_365"
+	resources={
+		rubber=3.000
+		aluminium=13
+	}
 
 	history={
 		owner = ITA

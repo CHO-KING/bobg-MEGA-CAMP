@@ -2,6 +2,9 @@
 state={
 	id=131
 	name="STATE_131"
+	resources={
+		tungsten=13.000
+	}
 
 	history={
 		owner = EGY

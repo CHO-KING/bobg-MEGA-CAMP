@@ -3,7 +3,8 @@ state={
 	id=154
 	name="STATE_154"
 	resources={
-		steel=18.000
+		steel=38.000
+		tungsten=46
 	}
 
 	history={
@@ -13,8 +14,8 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
-			arms_factory = 0
+			industrial_complex = 3
+			arms_factory = 2
 			9250 = {
 				naval_base = 10
 			}

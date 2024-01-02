@@ -13,12 +13,12 @@ state={
 		}
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 6
+			industrial_complex = 1
 			arms_factory = 0
 			1133 = {
 				naval_base = 2
 			}
-			air_base = 10
+			air_base = 2
 
 		}
 		add_core_of = JAP
@@ -39,7 +39,7 @@ state={
 	}
 	manpower=7847628
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=city
 
 	local_supplies=10.0
 }

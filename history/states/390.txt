@@ -2,6 +2,9 @@
 state={
 	id=390
 	name="STATE_390"
+	resources={
+		aluminium=34.000
+	}
 
 	history={
 		owner = CAM
@@ -11,8 +14,8 @@ state={
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-			arms_factory = 1
-			dockyard = 1
+			arms_factory = 0
+			dockyard = 0
 			1285 = {
 				naval_base = 1
 			}

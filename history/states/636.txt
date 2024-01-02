@@ -2,6 +2,9 @@
 state={
 	id=636
 	name="STATE_636"
+	resources={
+		tungsten=26.000
+	}
 
 	history={
 		owner = V63

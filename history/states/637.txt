@@ -9,13 +9,13 @@ state={
 			1413 10 
 		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 3
+			infrastructure = 2
+			industrial_complex = 1
 			arms_factory = 0
 			1386 = {
 				naval_base = 1
 			}
-			air_base = 10
+			air_base = 2
 
 		}
 		add_core_of = V63
@@ -29,7 +29,7 @@ state={
 	}
 	manpower=7800784
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=rural
 
 	local_supplies=10.0
 }

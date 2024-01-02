@@ -3,6 +3,9 @@ state={
 	id=362
 	name="STATE_362"
 	impassable = yes
+	resources={
+		oil=3.000
+	}
 
 	history={
 		owner = ITA

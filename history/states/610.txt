@@ -2,6 +2,9 @@
 state={
 	id=610
 	name="STATE_610"
+	resources={
+		steel=7.000
+	}
 
 	history={
 		owner = SCA

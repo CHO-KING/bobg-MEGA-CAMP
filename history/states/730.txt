@@ -2,6 +2,10 @@
 state={
 	id=730
 	name="STATE_730"
+	resources={
+		steel=8.000
+		tungsten=56
+	}
 
 	history={
 		owner = USA

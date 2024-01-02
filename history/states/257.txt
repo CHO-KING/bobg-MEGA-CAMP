@@ -2,6 +2,9 @@
 state={
 	id=257
 	name="STATE_257"
+	resources={
+		rubber=59.000
+	}
 
 	history={
 		owner = ENG

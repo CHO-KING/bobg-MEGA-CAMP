@@ -2,6 +2,10 @@
 state={
 	id=672
 	name="STATE_672"
+	resources={
+		oil=19.000
+		aluminium=13
+	}
 
 	history={
 		owner = W38

@@ -2,6 +2,9 @@
 state={
 	id=332
 	name="STATE_332"
+	resources={
+		oil=3.000
+	}
 
 	history={
 		owner = ITA

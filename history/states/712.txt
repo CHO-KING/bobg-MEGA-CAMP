@@ -2,6 +2,9 @@
 state={
 	id=712
 	name="STATE_712"
+	resources={
+		steel=15.000
+	}
 
 	history={
 		owner = USA
@@ -12,6 +15,7 @@ state={
 			infrastructure = 4
 			industrial_complex = 2
 			arms_factory = 0
+			dockyard = 1
 			7480 = {
 				naval_base = 8
 			}

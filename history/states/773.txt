@@ -6,17 +6,17 @@ state={
 	history={
 		owner = V09
 		victory_points = {
-			9793 30 
+			9793 10
 		}
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 7
-			arms_factory = 2
-			dockyard = 2
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 0
 			9793 = {
 				naval_base = 4
 			}
-			air_base = 8
+			air_base = 1
 
 		}
 		add_core_of = SPB
@@ -28,7 +28,7 @@ state={
 	}
 	manpower=354892
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=rural
 
 	local_supplies=10.0
 }

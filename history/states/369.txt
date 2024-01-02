@@ -2,6 +2,9 @@
 state={
 	id=369
 	name="STATE_369"
+	resources={
+		aluminium=9.000
+	}
 
 	history={
 		owner = ITA
