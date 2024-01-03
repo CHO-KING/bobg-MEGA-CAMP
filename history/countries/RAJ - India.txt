@@ -190,12 +190,6 @@ add_opinion_modifier = { target = X85 modifier = negative_160 }
 add_opinion_modifier = { target = X93 modifier = negative_30 }
 add_opinion_modifier = { target = X98 modifier = negative_20 }
 
-create_faction = league_of_nations
-add_to_faction = RAJ
-add_to_faction = ENG
-add_to_faction = USA
-add_to_faction = W38
-
 set_global_flag = KIEL_CANAL_UNBUILT
 add_ideas = {
 	great_power
