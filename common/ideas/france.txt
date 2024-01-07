@@ -1,0 +1,24 @@
+ideas = {
+	country = {
+		FRA_1912_coup = {
+			picture = chi_incompetent_officers
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+
+			removal_cost = -1
+			
+			cancel = {
+				has_global_flag = fall_of_france
+			}
+			
+			modifier = {
+				army_speed_factor = -0.1
+				surrender_limit = -0.2
+				army_morale_factor = -0.1
+				command_power_gain_mult = -0.10
+			}
+		}
+	}
+}

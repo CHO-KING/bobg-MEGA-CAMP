@@ -87,6 +87,10 @@ if = {
 	diplomatic_relation = { country = RAJ relation = non_aggression_pact }
 }
 
+create_faction = silk_road_initiative
+add_to_faction = X24
+add_to_faction = RAJ
+
 add_opinion_modifier = { target = BAY modifier = negative_27 }
 add_opinion_modifier = { target = BRU modifier = positive_10 }
 add_opinion_modifier = { target = CAM modifier = negative_20 }

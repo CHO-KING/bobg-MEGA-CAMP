@@ -125,6 +125,9 @@ if = {
 	diplomatic_relation = { country = HOL relation = non_aggression_pact }
 }
 
+create_faction = liberation_front
+add_to_faction = V09
+
 add_opinion_modifier = { target = BAY modifier = negative_154 }
 add_opinion_modifier = { target = BOS modifier = negative_80 }
 add_opinion_modifier = { target = BRA modifier = negative_200 }
@@ -220,6 +223,7 @@ add_ideas = {
 	civilian_economy
 	export_focus
 	culture_french
+	FRA_1912_coup
 }
 set_stability = 0.60
 set_war_support = 0.60
