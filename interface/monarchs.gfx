@@ -249,7 +249,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_SCA_monarch"
-		texturefile = "gfx/interface/ideas/crowns/sweden_shield.dds"
+		texturefile = "gfx/interface/ideas/crowns/sweden.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_SEN_monarch"

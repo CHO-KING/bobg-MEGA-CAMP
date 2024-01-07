@@ -66,19 +66,19 @@ if = {
 # Research Bonuses
 
 set_country_flag = conv_scandinavia
-set_convoys = 37
+set_convoys = 200
 
 set_politics = {
     ruling_party = democratic
-    last_election = "1912.7.1"
+    last_election = "1932.7.1"
     election_frequency = 48
     elections_allowed = yes
 }
 
 set_popularities = {
-	absolutist = 6
-	communism = 5
-	democratic = 71
+	absolutist = 30
+	communism = 11
+	democratic = 41
 	fascism = 15
 	neutrality = 3
 }
@@ -110,82 +110,22 @@ if = {
     add_to_tech_sharing_group = SCA_research
 }
 
-give_guarantee = POL
 if = {
 	limit = { NOT = { has_non_aggression_pact_with = POL } }
 	diplomatic_relation = { country = POL relation = non_aggression_pact }
 }
-
-give_guarantee = SOV
 if = {
 	limit = { NOT = { has_non_aggression_pact_with = SOV } }
 	diplomatic_relation = { country = SOV relation = non_aggression_pact }
 }
 
-add_opinion_modifier = { target = BAY modifier = positive_30 }
-add_opinion_modifier = { target = BOS modifier = negative_35 }
-add_opinion_modifier = { target = BRA modifier = positive_5 }
-add_opinion_modifier = { target = CUB modifier = positive_47 }
-add_opinion_modifier = { target = CYP modifier = negative_5 }
-add_opinion_modifier = { target = CZE modifier = positive_55 }
-add_opinion_modifier = { target = EGY modifier = positive_60 }
-add_opinion_modifier = { target = ENG modifier = positive_71 }
-add_opinion_modifier = { target = FIJ modifier = positive_15 }
-add_opinion_modifier = { target = FRA modifier = negative_110 }
-add_opinion_modifier = { target = GAB modifier = negative_180 }
-add_opinion_modifier = { target = HOL modifier = positive_200 }
-add_opinion_modifier = { target = IRE modifier = positive_105 }
-add_opinion_modifier = { target = ITA modifier = positive_180 }
-add_opinion_modifier = { target = JAP modifier = negative_30 }
-add_opinion_modifier = { target = KEN modifier = positive_107 }
-add_opinion_modifier = { target = MAL modifier = positive_105 }
-add_opinion_modifier = { target = NZL modifier = negative_15 }
-add_opinion_modifier = { target = OMA modifier = positive_15 }
-add_opinion_modifier = { target = PNG modifier = negative_15 }
-add_opinion_modifier = { target = POL modifier = positive_185 }
-add_opinion_modifier = { target = QUE modifier = positive_105 }
-add_opinion_modifier = { target = RAJ modifier = positive_60 }
-add_opinion_modifier = { target = SEN modifier = negative_15 }
-add_opinion_modifier = { target = SER modifier = negative_35 }
-add_opinion_modifier = { target = SOV modifier = positive_193 }
-add_opinion_modifier = { target = SPB modifier = negative_30 }
-add_opinion_modifier = { target = USA modifier = positive_164 }
-add_opinion_modifier = { target = V00 modifier = positive_9 }
-add_opinion_modifier = { target = V09 modifier = negative_70 }
-add_opinion_modifier = { target = VIN modifier = negative_50 }
-add_opinion_modifier = { target = W01 modifier = negative_200 }
-add_opinion_modifier = { target = W02 modifier = negative_100 }
-add_opinion_modifier = { target = W23 modifier = negative_195 }
-add_opinion_modifier = { target = W31 modifier = negative_30 }
-add_opinion_modifier = { target = W35 modifier = negative_100 }
-add_opinion_modifier = { target = W38 modifier = positive_115 }
-add_opinion_modifier = { target = W60 modifier = negative_15 }
-add_opinion_modifier = { target = W62 modifier = positive_15 }
-add_opinion_modifier = { target = W74 modifier = negative_45 }
-add_opinion_modifier = { target = X01 modifier = negative_30 }
-add_opinion_modifier = { target = X06 modifier = negative_30 }
-add_opinion_modifier = { target = X14 modifier = positive_30 }
-add_opinion_modifier = { target = X15 modifier = negative_100 }
-add_opinion_modifier = { target = X24 modifier = negative_75 }
-add_opinion_modifier = { target = X42 modifier = positive_10 }
-add_opinion_modifier = { target = X48 modifier = negative_5 }
-add_opinion_modifier = { target = X49 modifier = negative_5 }
-add_opinion_modifier = { target = X50 modifier = negative_5 }
-add_opinion_modifier = { target = X62 modifier = negative_30 }
-add_opinion_modifier = { target = X72 modifier = positive_15 }
-add_opinion_modifier = { target = X73 modifier = negative_50 }
-add_opinion_modifier = { target = X80 modifier = negative_200 }
-add_opinion_modifier = { target = X85 modifier = positive_11 }
-add_opinion_modifier = { target = X90 modifier = positive_79 }
-add_opinion_modifier = { target = X93 modifier = negative_10 }
-
-
 add_ideas = {
-	SCA_monarch
 	limited_conscription
 	civilian_economy
 	export_focus
-	culture_danish
+	SCA_monarch
+	SCA_canal_idea
+	SCA_swedish_crisis_idea
 }
 set_stability = 0.60
 set_war_support = 0.60

@@ -1,4 +1,332 @@
 ideas = {
+
+	country = {
+		SCA_canal_idea = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_build_infrastructure
+
+			modifier = {
+				consumer_goods_factor = 0.1
+			}
+		}
+		
+		SCA_boom_idea = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_foreign_capital
+
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = 0.1
+			}
+		}
+		
+		SCA_swedish_crisis_idea = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = ast_classify_aliens
+
+			modifier = {
+				conscription_factor = -0.2
+				stability_factor = -0.2
+				army_core_defence_factor = -0.05
+				army_core_attack_factor = -0.05
+			}
+		}
+		
+		SCA_swedish_crisis_idea_swe = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = ast_classify_aliens
+
+			modifier = {
+				conscription_factor = -0.2
+				stability_factor = -0.1
+				army_core_defence_factor = -0.1
+				army_core_attack_factor = -0.1
+			}
+		}
+		
+		SCA_swedish_crisis_idea_swe_2 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = ast_classify_aliens
+
+			modifier = {
+				conscription_factor = -0.2
+				army_core_defence_factor = -0.1
+				army_core_attack_factor = -0.1
+			}
+		}
+		
+		SCA_swedish_crisis_idea_swe_3 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = ast_classify_aliens
+
+			modifier = {
+				conscription_factor = -0.1
+				army_core_defence_factor = -0.1
+				army_core_attack_factor = -0.1
+			}
+		}
+		
+		SCA_swedish_crisis_idea_den = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = ast_classify_aliens
+
+			modifier = {
+				conscription_factor = -0.2
+				stability_factor = -0.1
+			}
+		}
+		
+		SCA_swedish_crisis_idea_den_2 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = ast_classify_aliens
+
+			modifier = {
+				conscription_factor = -0.2
+				political_power_cost = 0.2
+				local_resources_factor = 0.05
+				industrial_capacity_dockyard = 0.05
+				industrial_capacity_factory = 0.05
+			}
+		}
+
+		SCA_swedish_crisis_idea_den_3 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = ast_classify_aliens
+
+			modifier = {
+				conscription_factor = -0.2
+				political_power_cost = 0.3
+				local_resources_factor = 0.15
+				industrial_capacity_dockyard = 0.05
+				industrial_capacity_factory = 0.05
+			}
+		}
+		
+		SCA_trade_idea = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_flexible_foreign_policy2
+
+			modifier = {
+				convoy_escort_efficiency = 0.1
+				convoy_retreat_speed = 0.1
+			}
+			equipment_bonus = {
+				convoy = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+			}
+		}
+		
+		SCA_red_terror_idea = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_purge
+
+			modifier = {
+				intelligence_agency_defense = 2
+				monthly_population = -2
+				communism_drift = 0.1
+			}
+		}
+		
+		SCA_monarchist_militia = {
+
+			removal_cost = -1
+			
+			allowed = {
+				original_tag = SCA
+			}
+
+			picture = generic_reserve_divisions
+
+			modifier = {
+				conscription = 0.005
+				army_core_defence_factor = 0.05
+			}
+		}
+		
+		SCA_speeded_up = {
+
+			removal_cost = -1
+			
+			allowed = {
+				original_tag = SCA
+			}
+
+			picture = fra_market_dynamism		
+
+			modifier = {
+				industrial_capacity_dockyard = 0.25
+				political_power_cost = 0.25
+			}
+		}
+		
+		SCA_butter_empire = {
+
+			removal_cost = -1
+			
+			allowed = {
+				original_tag = SCA
+			}
+
+			picture = POL_looming_peasants_strike			
+
+			modifier = {
+				supply_node_range = 0.1
+				offensive_war_stability_factor = 0.1
+			}
+		}
+
+		SCA_butter_empire_2 = {
+
+			removal_cost = -1
+			
+			allowed = {
+				original_tag = SCA
+			}
+
+			picture = POL_looming_peasants_strike			
+
+			modifier = {
+				supply_node_range = 0.1
+				offensive_war_stability_factor = 0.1
+				cic_to_overlord_factor = 0.25
+				mic_to_overlord_factor = 0.25
+			}
+		}
+		
+		SCA_winter_war = {
+			picture = tur_sub_zero_survival_training
+			allowed = {
+				original_tag = SCA
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			picture = tur_sub_zero_survival_training
+			
+			modifier = {
+				mobilization_speed = 0.85
+				winter_attrition_factor = -0.5
+				acclimatization_cold_climate_gain_factor = 1
+			}
+		}
+	}
+
 	# TECHNOLOGY
 	tank_manufacturer = {
 

@@ -135,7 +135,7 @@ adjacency_rule =
 		trade = yes
 	}
 	
-	required_provinces = { 6287 3277 3325 3260 394 }
+	required_provinces = { 316 9296 }
 	
 	icon = 2455
 	offset = { -26 0 -13 }
@@ -317,7 +317,9 @@ adjacency_rule =
 	required_provinces = { 11366 317 3231 }
 	
 	is_disabled = {
-		has_global_flag = KIEL_CANAL_UNBUILT
+		NOT = {
+			has_global_flag = SCA_canal_opened
+		}
 		tooltip = canal_unbuilt_tt
 	}
 		
